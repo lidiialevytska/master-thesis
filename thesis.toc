@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Related Literature}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Attitudes Towards Refugees}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Belief Formation}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Contact Theory}{1}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Experience and Memory}{1}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Media Exposure}{1}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Conceptual Framework}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Beliefs About Refugee Integration}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Channels of Belief Formation}{1}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Hypotheses}{1}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Experimental Design}{1}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Survey Design}{1}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Vignette Experiment}{1}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Outcome Variables}{1}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Questionnaire}{1}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Empirical Strategy}{1}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Main Specification}{1}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Heterogeneity Analysis}{1}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Discussion}{1}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Limitations}{1}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Future Research}{1}{subsection.6.2}%
+\contentsline {section}{References}{2}{subsection.6.2}%

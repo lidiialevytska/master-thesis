@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{preamble}
+
+\begin{document}
+
+%--------------------------------------------------
+% Cover page
+%--------------------------------------------------
+
+\input{cover}
+
+%--------------------------------------------------
+% Table of contents
+%--------------------------------------------------
+
+\pagenumbering{gobble}
+\tableofcontents
+\clearpage
+
+%--------------------------------------------------
+% Main text
+%--------------------------------------------------
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{chapters/introduction}
+\input{chapters/literature review}
+\input{chapters/framework}
+\input{chapters/design}
+\input{chapters/empirical}
+\input{chapters/conclusion}
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\appendix
+
+% appendix chapters go here
+
+\newpage
+\input{declaration}
+
+\end{document}

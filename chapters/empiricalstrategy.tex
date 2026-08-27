@@ -1,0 +1,94 @@
+\section{Empirical Strategy and Identification}
+
+Identification and equations: 
+Baseline equation:
+\[
+Y_{ij}
+=
+\alpha
++
+\beta_1 Ukr_j
++
+\beta_2 Ref_j
++
+\beta_3 Female_j
++
+\beta_4 HighSkill_j
++
+\beta_5 German_j
++
+\varepsilon_{ij}.\]
+
+Adjusted specification:
+\[
+Y_{ij}
+=
+\alpha
++
+\beta_1 Ukr_j
++
+\beta_2 Ref_j
++
+\beta_3 Female_j
++
+\beta_4 HighSkill_j
++
+\beta_5 German_j
++
+\boldsymbol{\delta}'\mathbf{X}_i
++
+\varepsilon_{ij}.\]
+
+H4 regression with interaction term:
+\[Y_{ij}
+=
+\alpha
++
+\beta_1 Ukraine_j
++
+\beta_2 Refugee_j
++
+\beta_3
+\left(
+Ukraine_j \times Refugee_j
+\right)
++
+\boldsymbol{\gamma}'\mathbf{Z}_j
++
+\varepsilon_{ij}.
+\]
+
+where \[\mathbf{Z}_j
+=
+\begin{pmatrix}
+Female_j \\
+HighSkill_j \\
+GoodGerman_j
+\end{pmatrix}\]
+
+\[
+\mathbf{X}_i
+=
+\left(
+Age_i,\,
+Gender_i,\,
+Edu_i,\,
+Emp_i,\,
+Inc_i,\,
+Mig_i,\,
+East_i,\,
+Religion_i,\,
+Right_i
+\right)'.\]
+
+Then,
+\[Y_{ij}
+=
+\alpha
++
+\boldsymbol{\beta}'\mathbf{Z}_j
++
+\boldsymbol{\theta}'\mathbf{X}_i
++
+\varepsilon_{ij},\] where \(\boldsymbol{\theta}\) is the vector of coefficients associated with the respondent controls, 
+and \(\mathbf{Z}_j\) is contains the randomized vignette characteristics and \(\mathbf{X}_i\) contains respondent-level controls.

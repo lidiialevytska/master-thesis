@@ -2,17 +2,17 @@
 \contentsline {section}{\numberline {2}Literature Review and Conceptual Framework}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Immigration Attitudes and Migrant Characteristics}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Beliefs and Expectations about Migrant Outcomes}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Differential Perceptions of Ukrainian and Syrian Migrants}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Contact, Personal Experience, Information, and Memory}{5}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Experimental Design}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Target Population and Proposed Sample}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Factorial Vignette Design}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Outcomes Measures}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Respondent Questionnaire}{7}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Randomization and Survey Procedure}{9}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Empirical Strategy and Identification}{9}{section.4}%
-\contentsline {section}{\numberline {5}Limitations and Extensions}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Extensions}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Limitations and Identification Constraints}{9}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Conclusion}{9}{section.6}%
-\contentsline {section}{References}{10}{section.6}%
+\contentsline {subsection}{\numberline {2.3}Differential Perceptions of Ukrainian and Syrian Migrants}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Belief Formation Through Contact, Experience, Information, and Memory}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experimental Design}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Target Population and Proposed Sample}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Factorial Vignette Design}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Outcomes Measures}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Respondent Questionnaire}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Randomization and Survey Procedure}{11}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Empirical Strategy and Identification}{11}{section.4}%
+\contentsline {section}{\numberline {5}Limitations and Extensions}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Extensions}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Limitations and Identification Constraints}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{11}{section.6}%
+\contentsline {section}{References}{12}{section.6}%

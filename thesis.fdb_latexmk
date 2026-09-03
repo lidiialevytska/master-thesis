@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1788462273.36684 "thesis.aux" "thesis.bbl" "thesis" 1788462275.57806 0
-  "./references.bib" 1788450013.61244 21523 32ee6d535fb21ae47874bc8d6ba3ad8a ""
+["bibtex thesis"] 1788475178.93737 "thesis.aux" "thesis.bbl" "thesis" 1788475179.77999 0
+  "./references.bib" 1788474189.92158 22000 20bd028c3b2060884b9c3a5b3ab758ca ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "thesis.aux" 1788462275.36011 8134 ffce975d6b158fd68b39a429b4ca4318 "pdflatex"
+  "thesis.aux" 1788475179.55321 7991 61364765fb9807868f06153b8c5ce2b6 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1788462274.85525 "/Users/lydia/Desktop/MasterThesis/thesis.tex" "thesis.pdf" "thesis" 1788462275.5782 0
+["pdflatex"] 1788475179.03142 "/Users/lydia/Desktop/MasterThesis/thesis.tex" "thesis.pdf" "thesis" 1788475179.78012 0
   "/Users/lydia/Desktop/MasterThesis/thesis.tex" 1787832689.946 935 82fec2b1a1483127a29def32812a86f3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -116,15 +116,15 @@
   "chapters/experimentaldesign.tex" 1788453033.68337 9219 ce516c5f822cbebc4baf7deae916f2dc ""
   "chapters/introduction.tex" 1786106609.38298 22 5c23bcd9d46cf48d2292896666a8a8fc ""
   "chapters/limitations.tex" 1787833863.82958 118 bb9ba3a87a0cdc76765d09fd1d5b147d ""
-  "chapters/literature review.tex" 1788462274.6113 21369 8750d029e81fdd1249db9681b5ccdba9 ""
+  "chapters/literature review.tex" 1788475177.99965 19394 55916e707ee6eafe4e814141c9555682 ""
   "cover.tex" 1786105181.42511 650 63212a0e093e5a71cb70bc70395855a4 ""
   "declaration.tex" 1786106050.68373 444 899bf95df0f189fddd4a0c0460228ef3 ""
   "preamble.tex" 1788006883.97048 415 671cc5455c3b72fa770e0792487b5501 ""
-  "thesis.aux" 1788462275.36011 8134 ffce975d6b158fd68b39a429b4ca4318 "pdflatex"
-  "thesis.bbl" 1788462273.45433 15157 c2872d64c7c5e69077819ade34abb0ca "bibtex thesis"
-  "thesis.out" 1788462275.36093 3910 8bdf21bce62eda10fb9955d2e082121a "pdflatex"
+  "thesis.aux" 1788475179.55321 7991 61364765fb9807868f06153b8c5ce2b6 "pdflatex"
+  "thesis.bbl" 1788475179.02945 15130 286de20d48d3be3c4c89062dc4738a72 "bibtex thesis"
+  "thesis.out" 1788475179.55424 3910 8bdf21bce62eda10fb9955d2e082121a "pdflatex"
   "thesis.tex" 1787832689.946 935 82fec2b1a1483127a29def32812a86f3 ""
-  "thesis.toc" 1788462275.36116 1679 369a4b4eec2c27120772b2e73b5eca4b "pdflatex"
+  "thesis.toc" 1788475179.55446 1677 20de58445835c5567e7553d01efd123c "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.log"

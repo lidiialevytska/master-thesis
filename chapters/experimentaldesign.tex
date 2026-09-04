@@ -1,122 +1,151 @@
 \section{Experimental Design}
 
-The study employs a factorial vignette experiment in which respondents evaluate hypothetical migrants whose 
-characteristics are independently varied across profiles. This approach is particularly suitable for the present 
-research question because migrants differ simultaneously along several characteristics, such as country of origin,
-migration status, skill level, and language proficiency. Factorial designs allow the effects of these characteristics 
-to be distinguished by independently varying them while holding the remaining characteristics constant. 
-The proposed design builds on previous conjoint and factorial vignette experiments examining how migrant 
-characteristics affect evaluations by host-country populations (Hainmueller and Hopkins, 2015; Bansak et al., 
-2016; Czymara and Schmidt-Catran, 2016).
-
-
-
-\begin{itemize}
-    \item $i$ indexes respondents.
-    \item $j$ indexes vignette profiles.
-    \item $g \in \{\text{Ukraine},\text{Syria}\}$ indexes migrant groups.
-    \item $Y_{ij}$ denotes respondent $i$'s evaluation of vignette $j$.
-    \item $C_{ig}$ denotes respondent $i$'s contact exposure to migrant group $g$.
-    \item $Q_{ig}$ denotes respondent $i$'s overall contact quality with migrant group $g$.
-    \item $M_{ig}$ denotes respondent $i$'s media exposure regarding migrant group $g$.
-\end{itemize}
-
-
-
-General Notation:
-For inline equations, use $...$.
-For displayed equations, use \[ ... \] or the equation environment.
-
+This thesis proposes a survey experiment to examine how Germans form beliefs about the labor-market and social 
+integration outcomes of Ukrainian and Syrian migrants. The proposed study consists of a factorial vignette experiment, 
+a set of outcome measures, and a respondent questionnaire. The following sections describe each part of 
+the proposed experimental design and the survey procedure.
 
 \subsection{Target Population and Proposed Sample}
 
+The target population consists of German citizens aged 18 or older who currently reside in Germany. Restricting 
+eligibility to German citizens provides a clear operational definition of the German population whose beliefs about 
+the integration of Ukrainian and Syrian migrants are the focus of this study. Similar citizenship-based sampling 
+criteria have been used in previous studies examining attitudes toward refugees and migration in Germany 
+\citep[e.g.,][]{hayo2023between}. Importantly, German citizenship is not used as a proxy for being native-born or 
+having no migration background. Naturalized German citizens are therefore included in the target population, while 
+respondents’ migration background is collected separately as a demographic characteristic in the respondent questionnaire.
+At the beginning of the survey, respondents would therefore be screened with respect to age, country of residence, 
+and German citizenship. Respondents who do not satisfy these eligibility criteria would not proceed to the experimental 
+part of the survey.
+
+I propose using Qualtrics to program the survey, and the online panel provider Bilendi for the recruitment of 
+participants. Bilendi is suitable for the present study because it provides access to a large and diverse pool of 
+respondents in Germany and allows the use of demographic quotas to approximate the composition of the target 
+population. The proposed sample would use quotas for age, gender, education, and region. Respondents would receive 
+compensation for their participation according to the standard compensation provided by the panel, taking into account 
+the expected duration of the survey.
+
+The final sample size would be determined based on a power analysis of the proposed experimental design. The number 
+of vignette evaluations per respondent, which also affects the required sample size, is discussed in Section 3.2.
+
 \subsection{Factorial Vignette Design}
-The study employs a factorial vignette experiment in which respondents evaluate hypothetical migrants whose characteristics are independently varied across profiles. This approach builds on previous factorial and conjoint experiments examining how characteristics of immigrants and refugees affect evaluations by host-country populations (e.g., Hainmueller \& Hopkins, 2015; Bansak et al., 2016; Czymara \& Schmidt-Catran, 2016).
 
-The vignettes describe potential migrants who currently live in Germany and differ randomly across several characteristics. 
-The description of immigrants is based on a total of five dimensions: country of origin (Ukrainian/Syrian), reason for immigration (war refugee/labor migrant), gender (male/female), language skills (low/good German), and education (low/high). 
-Country and language skills describe the cultural distance. Distinguish between two levels: (1) low and (2) good German language skills. The education factor represents the human capital of the immigrants. Distinguish between a (1) low and a (2) high level of education, where: 
-low level of education: completed secondary education but has no vocational or university degree.
-high level of education: has a university degree.
-It should also be taken into account that language skills also have an economic component. Success in the labor market depends, for example, on the ability to speak the local language. The effect size of language proficiency could exceed the effect sizes of religious affiliation and country of origin. However, it should be considered that part of the effect of language skills, in the sense of the human capital hypothesis, can also be attributed to economic considerations. (Czymara \& Schmidt-Catran, 2016)
+The study employs a factorial vignette experiment in which respondents evaluate hypothetical migrants whose 
+characteristics are independently varied across profiles. This approach is particularly suitable for the present 
+research question because migrants differ simultaneously along several characteristics. By independently varying these 
+characteristics, the design makes it possible to distinguish their effects on respondents’ beliefs while holding the remaining 
+characteristics constant. The proposed design builds on previous conjoint and factorial vignette experiments examining 
+how migrant characteristics shape evaluations \citep{hainmueller2015hidden, bansak2016economic, czymara2016deutschland}.
 
-Why religious affiliation is not included in the vignette: 
-As discussed in the literature review, previous research demonstrates that religion and perceived cultural distance can influence attitudes toward immigrants (e.g., Czymara \& Schmidt-Catran, 2016). However, in this study, religious affiliation is deliberately not included as a randomized vignette attribute. The present study focuses on differences in expectations associated with migrants’ country of origin, migration status, human capital, gender, and German-language proficiency. Introducing religion as an additional vignette dimension would increase the complexity of the experimental design. Moreover, explicitly providing information about religious affiliation could alter the beliefs that respondents would otherwise associate with Ukrainian and Syrian migrants based on the country of origin alone. Religion is therefore left unspecified in the vignette, allowing the country-of-origin treatment to capture respondents’ overall beliefs associated with the respective national-origin group. Consequently, the estimated country-of-origin effect should be interpreted as a composite effect that may encompass perceived cultural and religious differences, rather than as an effect of nationality that is independent of religion. Respondents’ own religious affiliation is nevertheless collected as a background characteristic and can be included as a control or examined in heterogeneity analyses.
+The proposed vignettes describe migrants who have come to Germany and are currently looking for stable employment. 
+Each profile varies independently along five binary dimensions: gender, country of origin, reason for migration, 
+human capital, and German-language proficiency. 
+These vignette attributes are selected to capture migrant characteristics that are central to the research questions 
+and that previous research has shown to influence perceptions of migrants. Country of origin is varied between 
+(1) Ukrainian and (2) Syrian migrants and represents the central comparison of the study. Reason for migration 
+distinguishes between the two types of migrants: (1) refugees who fled the wars in Ukraine or Syria and (2) economic 
+migrants who came to Germany in search of better employment opportunities. Educational attainment captures 
+differences in migrants' human capital, which previous vignette and conjoint studies have shown to influence 
+evaluations of immigrants \citep{hainmueller2010attitudes, hainmueller2015hidden, czymara2016deutschland}. 
+The design distinguishes between (1) migrants without a formal vocational qualification and (2) migrants with a 
+university degree. German-language proficiency is varied between (1) limited and (2) good German skills. 
+Language proficiency may be relevant both for social integration and for labor-market outcomes, since knowledge of the 
+host-country language represents an important form of human capital \citep{czymara2016deutschland}. 
+Finally, gender distinguishes between (1) male and (2) female migrants. Gender is included because previous 
+experimental research suggests that migrant gender can affect how immigrants and refugees are perceived, including in 
+the German context \citep{czymara2017refugees, gereke2020gendered}. Randomizing gender therefore allows the effects 
+of the other vignette characteristics to be estimated across both male and female migrant profiles.
 
-Vignette wording: 
-[Gender: Mr./Mrs.] [random letter]. came from [country of origin: Ukraine/Syria] to Germany. 
-[He/She] came to Germany as [reason for immigration: a refugee after fleeing the war in [his/her] country / 
-an economic migrant in search of better employment and economic opportunities in Germany]. 
-[He/She] [skill level: has completed a university degree / has no formal vocational qualification], 
-speaks German [language skills: well / only to a limited extent] and is currently looking for stable employment.
+As discussed previously, existing research shows that religion and perceived cultural distance can influence attitudes 
+toward immigrants \citep[e.g.,][]{czymara2016deutschland}. However, in this study, religious affiliation is 
+deliberately left unspecified. The main interest of this thesis is in the overall beliefs that respondents associate 
+with Ukrainian and Syrian migrants. Explicitly including religion as an additional vignette attribute would not only 
+make the design more complex, but could also change the beliefs that respondents would otherwise associate with the 
+migrant's country of origin. For this reason, religion is not varied separately in the experiment. The estimated 
+country-of-origin effect should therefore be interpreted as an overall effect of Ukrainian versus Syrian origin, 
+which may also reflect perceived cultural or religious differences between the two groups.
 
-vignette universe: $2 \times 2 \times 2 \times 2 \times 2 = 32$ profiles 
+Table \ref{tab:vignette_attributes} summarizes the five vignette attributes and their respective levels and shows how 
+the randomized characteristics relate to the hypotheses developed in Chapter 2.
+\begin{table}[htbp]
+\centering
+\caption{Vignette Attributes and Attribute Levels}
+\label{tab:vignette_attributes}
 
-male/female × Ukraine/Syria × refugee/labor migrant × high/low skill × good/limited German = 16 profiles
+\renewcommand{\arraystretch}{1.25}
 
-Each respondent receives only a few randomly selected vignettes. The randomization allows estimation of the marginal effect of each characteristic.
+\begin{tabular}{p{3.1cm} p{3.7cm} p{3.0cm} l}
+\toprule
+\textbf{\makecell[l]{Vignette\\attribute}} &
+\textbf{Level 1} &
+\textbf{Level 2} &
+\textbf{Hypothesis} \\
+\midrule
 
-1. Explained vignette attributes:
-$Origin_{j}$
-$MigrationStatus_{j}$
-$Gender_{j}$
-$Education_{j}$
-$GermanSkills_{j}$
+Country of origin
+    & Syria
+    & Ukraine
+    & H3a, H3b, H3c \\
 
-2. Choosing particular vignette attributes:
-Educational attainment is included because previous vignette and conjoint evidence consistently documents more favorable evaluations of highly skilled immigrants (Hainmueller \& Hiscox, 2010; Hainmueller \& Hopkins, 2015; Czymara \& Schmidt-Catran, 2016).L
-Language proficiency can be connected to Czymara \& Schmidt-Catran and other relevant experiments.
-Migration status can be justified through the refugee-versus-labor-migrant literature.
-Country of origin obviously comes from your substantive Ukrainian–Syrian research question.
+\addlinespace
+\makecell[l]{Reason for\\migration}
+    & Economic migrant
+    & War refugee
+    & H2, H3c \\
+
+\addlinespace
+Human capital
+    & \makecell[l]{No formal vocational\\qualification}
+    & \makecell[l]{University\\degree}
+    & H1a \\
+
+\addlinespace
+\makecell[l]{German-language\\proficiency}
+    & Limited
+    & Good
+    & H1b \\
+
+\addlinespace
+Gender
+    & Male
+    & Female
+    & -- \\
+
+\bottomrule
+\end{tabular}
+
+\vspace{0.3em}
+
+\begin{minipage}{0.95\textwidth}
+\footnotesize
+\textit{Notes:} The table presents the five independently randomized
+attributes used to construct the migrant profiles. Gender is included
+as an additional randomized characteristic but is not associated with
+a separate hypothesis.
+\end{minipage}
+
+\end{table}
+
+The five binary attributes generate a full factorial design of \(2^5=32\) possible migrant profiles.
+The vignettes would be worded as follows:\bigskip
+
+[Mr./Mrs.] [random letter]. came to Germany from [Ukraine/Syria]. [He/She] came to Germany as [a refugee after fleeing 
+the war in his/her country / an economic migrant in search of better employment and economic opportunities in Germany]. 
+[He/She] [has no formal vocational qualification / has completed a university degree], speaks German 
+[only to a limited extent / well], and is currently looking for stable employment.\bigskip
+
+Since evaluating 
+all possible profiles would place a substantial burden on respondents, I propose that each respondent evaluate a 
+randomly selected subset of six vignettes. This provides several profile evaluations per respondent while keeping 
+the survey manageable, particularly because each vignette is followed by several belief questions about migrant outcomes. 
+The choice therefore reflects a trade-off between obtaining sufficient statistical information and limiting 
+cognitive burden and respondent fatigue, which are important considerations in factorial survey designs 
+\citep{sauer2011application}. The exact number of vignettes could be further assessed through pilot testing prior 
+to implementation.
+
 
 \subsection{Outcomes Measures}
 
 \subsection{Respondent Questionnaire}
-Citing measurement sources for the respondent questionnaire:
-$C_{ig}^{Work}$ workplace contact frequency 
-$C_{ig}^{Social}$ social contact frequency
-$Q_{ig}$ contact quality 
-
-Contact quality: The notation $Q_{ig}\in\{1,\ldots,7\}$ denotes respondent $i$'s overall contact quality with migrant group $g$. Contact quality is measured on a 7-point scale, where 1 indicates very negative contact experiences and 7 indicates very positive contact experiences. The measure is adapted to distinguish between the two origin groups examined in the present study.
-
-\[PositiveExperience_{ig} = max(Q_{ig}-4,0)\]
-
-\[NegativeExperience_{ig} = max(4-Q_{ig},0)\]
-
-Following the intergroup-contact literature, the questionnaire distinguishes between the frequency and quality of respondents' contact with members of the two origin groups. This distinction is motivated by previous evidence showing that the quantity and valence of intergroup contact constitute conceptually distinct dimensions and may have different relationships with attitudes toward refugees (e.g., De Coninck et al., 2021). Contact is measured separately for Ukrainians and Syrians and across workplace and non-work social settings.
-
-Media exposure: \(MediaExposure_{ig}\) Media exposure is measured separately for Ukrainian and Syrian refugees. Building on work conceptualizing refugee-related media exposure as a form of indirect intergroup contact (e.g., De Coninck et al., 2021), respondents report the frequency with which they encounter relevant news and media coverage. The measure is adapted to distinguish between the two origin groups examined in the present study.
-
-Motivated by research showing that the memorability of information and narratives may influence subsequent beliefs (Graeber et al., 2024), the questionnaire additionally elicits whether respondents can recall a particularly salient personal experience involving members of either origin group and, if so, the valence of that experience.
-
-Belief about migrant integration:
-
-$\underbrace{C_{ig}^{Work}}_{\text{respondent's workplace exposure}}
-\quad\longrightarrow\quad
-\underbrace{\text{beliefs about labor-market outcomes}}_{\text{potential association}}$
-
-$\underbrace{C_{ig}^{Social}}_{\text{respondent's non-work social exposure}}
-\quad\longrightarrow\quad
-\underbrace{\text{beliefs about social integration}}_{\text{potential association}}.$
-
-Beliefs about large communities and network effects:
-
-Large community
-$\rightarrow$
-More information/referrals
-$\rightarrow$
-Better employment
-
-versus 
-
-Large community
-$\rightarrow$
-Less native interaction
-$\rightarrow$
-Slower integration.
-
-Construct:
-
-$\Delta B_i^{\mathrm{Network}} = B_{i,\mathrm{S}}^{\mathrm{Network}} - B_{i,\mathrm{U}}^{\mathrm{Network}}$
 
 \subsection{Randomization and Survey Procedure}

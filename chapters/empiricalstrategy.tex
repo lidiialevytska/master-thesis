@@ -1,5 +1,76 @@
 \section{Empirical Strategy and Identification}
 
+
+
+\begin{itemize}
+    \item $i$ indexes respondents.
+    \item $j$ indexes vignette profiles.
+    \item $g \in \{\text{Ukraine},\text{Syria}\}$ indexes migrant groups.
+    \item $Y_{ij}$ denotes respondent $i$'s evaluation of vignette $j$.
+    \item $C_{ig}$ denotes respondent $i$'s contact exposure to migrant group $g$.
+    \item $Q_{ig}$ denotes respondent $i$'s overall contact quality with migrant group $g$.
+    \item $M_{ig}$ denotes respondent $i$'s media exposure regarding migrant group $g$.
+\end{itemize}
+
+General Notation:
+For inline equations, use $...$.
+For displayed equations, use \[ ... \] or the equation environment.
+
+1. Explained vignette attributes:
+$Origin_{j}$
+$MigrationStatus_{j}$
+$Gender_{j}$
+$Education_{j}$
+$GermanSkills_{j}$
+
+Citing measurement sources for the respondent questionnaire:
+$C_{ig}^{Work}$ workplace contact frequency 
+$C_{ig}^{Social}$ social contact frequency
+$Q_{ig}$ contact quality 
+
+Contact quality: The notation $Q_{ig}\in\{1,\ldots,7\}$ denotes respondent $i$'s overall contact quality with migrant group $g$. Contact quality is measured on a 7-point scale, where 1 indicates very negative contact experiences and 7 indicates very positive contact experiences. The measure is adapted to distinguish between the two origin groups examined in the present study.
+
+\[PositiveExperience_{ig} = max(Q_{ig}-4,0)\]
+
+\[NegativeExperience_{ig} = max(4-Q_{ig},0)\]
+
+Following the intergroup-contact literature, the questionnaire distinguishes between the frequency and quality of respondents' contact with members of the two origin groups. This distinction is motivated by previous evidence showing that the quantity and valence of intergroup contact constitute conceptually distinct dimensions and may have different relationships with attitudes toward refugees (e.g., De Coninck et al., 2021). Contact is measured separately for Ukrainians and Syrians and across workplace and non-work social settings.
+
+Media exposure: \(MediaExposure_{ig}\) Media exposure is measured separately for Ukrainian and Syrian refugees. Building on work conceptualizing refugee-related media exposure as a form of indirect intergroup contact (e.g., De Coninck et al., 2021), respondents report the frequency with which they encounter relevant news and media coverage. The measure is adapted to distinguish between the two origin groups examined in the present study.
+
+Motivated by research showing that the memorability of information and narratives may influence subsequent beliefs (Graeber et al., 2024), the questionnaire additionally elicits whether respondents can recall a particularly salient personal experience involving members of either origin group and, if so, the valence of that experience.
+
+Belief about migrant integration:
+
+$\underbrace{C_{ig}^{Work}}_{\text{respondent's workplace exposure}}
+\quad\longrightarrow\quad
+\underbrace{\text{beliefs about labor-market outcomes}}_{\text{potential association}}$
+
+$\underbrace{C_{ig}^{Social}}_{\text{respondent's non-work social exposure}}
+\quad\longrightarrow\quad
+\underbrace{\text{beliefs about social integration}}_{\text{potential association}}.$
+
+Beliefs about large communities and network effects:
+
+Large community
+$\rightarrow$
+More information/referrals
+$\rightarrow$
+Better employment
+
+versus 
+
+Large community
+$\rightarrow$
+Less native interaction
+$\rightarrow$
+Slower integration.
+
+Construct:
+
+$\Delta B_i^{\mathrm{Network}} = B_{i,\mathrm{S}}^{\mathrm{Network}} - B_{i,\mathrm{U}}^{\mathrm{Network}}$
+
+
 Identification and equations: 
 Baseline equation:
 \[

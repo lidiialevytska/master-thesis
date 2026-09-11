@@ -226,6 +226,11 @@ INPUT ./thesis.bbl
 INPUT ./thesis.bbl
 INPUT thesis.bbl
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./appendix/appendix.tex
+INPUT ./appendix/appendix.tex
+INPUT ./appendix/appendix.tex
+INPUT ./appendix/appendix.tex
+INPUT appendix/appendix.tex
 INPUT ./declaration.tex
 INPUT ./declaration.tex
 INPUT ./declaration.tex

@@ -171,13 +171,13 @@ Two additional measures capture respondents' beliefs about discrimination in the
 hiring discrimination and asks respondents how likely is it that the migrant would be treated less favorably in the 
 hiring process than an otherwise comparable German applicant. The second concerns discrimination after entering 
 employment and measures the expected likelihood of unequal treatment in the workplace, for example in areas such as 
-wages, promotion opportunities, or interactions with colleagues. Both outcomes are measured on seven-point Likert scales, 
+wages, promotion opportunities, or interactions with colleagues. Both outcomes are measured on seven-point scales, 
 with higher values indicating greater agreement and therefore higher expected discrimination.
 
 The final outcome captures beliefs about social integration. Respondents assess how likely the migrant is to 
 successfully integrate socially in Germany within the next five years. To give respondents a common understanding of 
 social integration, the question defines it as the migrants building regular social contacts with German citizens within
-the next five years. Responses are recorded on a seven-point Likert scale, with higher values indicating more favorable 
+the next five years. Responses are recorded on a seven-point scale, with higher values indicating more favorable 
 beliefs about social integration.
 
 Combined, these five measures capture different dimensions of respondents' beliefs about migrant integration rather 
@@ -187,5 +187,145 @@ outcome for H1b and H3a. All five outcome measures are used to examine H3c. In t
 analysis, the outcome measures are analyzed separately rather than being combined into a single integration index.
 
 \subsection{Respondent Questionnaire}
+
+After answering all outcome questions for the vignette profiles, respondents would complete an additional questionnaire 
+measuring personal contact experiences, media exposure, general beliefs, and their background characteristics. 
+These questions are specifically asked after the vignette experiment to avoid influencing respondents' answers 
+to the vignettes. 
+
+\subsubsection{Personal Contact and Experience.}
+
+\noindent\textbf{Contact frequency.} Respondents are asked separately about the frequency of workplace and non-work 
+contact with Ukrainian and Syrian migrants during the past 12 months. Non-work contact refers to interactions outside 
+of a workplace setting, for example as friends, neighbours, acquaintances, through clubs, or in other social settings. 
+Both questions use the same seven-point frequency scale ranging from 1 (never) to 7 (several times per day).
+For more details on the exact wording of the questions and response scales, see Appendix [X].
+For each migrant group, the two measures are combined into an overall contact exposure measure \(C_{ig}\):
+
+$$ C_{ig}=\frac{C^{Work}_{ig}+C^{Non-Work}_{ig}}{2}, $$
+
+where \(C^{Work}_{ig}\) and \(C^{Non-Work}_{ig}\) denote workplace and non-work contact, respectively, for 
+respondent \(i\) and migrant group \(g\), where \(g \in \{\text{Ukrainian, Syrian}\}\). Higher values indicate 
+more frequent overall contact with the respective group. If a person is retired, unemployed, a student, or not currently 
+working, they would answer that workplace contact is not applicable for them and it would be marked as missing instead 
+of reporting it as never having contact with the migrant group in the workplace. 
+
+This contact measure can be used in the specifications for H4–H6, because these hypotheses concern respondents' 
+overall contact experiences with the migrant group. Additionally, the two contact types can be analyzed separately 
+to examine whether workplace and non-work contact are differently associated with respondents' beliefs because contact 
+in the workplace is not necessarily comparable to social contact with friends or neighbours.\bigskip
+
+\noindent\textbf{Overall contact quality.} If respondents report having had contact with Ukrainian or Syrian migrants, 
+they are asked to evaluate the overall quality of their contact experiences with each group. The question is answered
+on a seven-point scale ranging from 1 (very negative) to 7 (very positive), with 4 representing a neutral 
+experience that is neither positive nor negative. This measure is denoted by \(Q_{ig}\) and is used to examine H4a, 
+conditional on respondents' overall contact exposure \(C_{ig}\).
+
+To examine whether negative experiences are more strongly associated with respondents' beliefs than positive experiences, 
+as proposed in H4b, the overall experience measure is additionally separated into positive and negative components:
+
+$$ Positive_{ig}=\max(Q_{ig}-4,0), $$ $$ Negative_{ig}=\max(4-Q_{ig},0). $$
+
+where \(Positive_{ig}\) captures the positivity of respondents' overall contact experiences and 
+\(Negative_{ig}\) captures the negativity of respondents' overall contact experiences. Both of them are designed to range 
+from 0 to 3 with higher values indicating more positive or negative experiences, respectively. Both take the value zero
+from a neutral response of \(Q_{ig}=4\). These separate measures make it possible to examine whether negative and 
+positive experiences are differently associated with respondents' beliefs.\bigskip
+
+\noindent\textbf{Most memorable experience.} If respondents report having had contact with Ukrainian or Syrian migrants,
+they are also asked to state whether a particular experience immediately comes to mind when thinking about their 
+personal experiences. They would only respond with ``Yes'' or ``No''.\bigskip
+
+\noindent\textbf{Valence of most memorable experience.} If their answer is ``Yes'', they are asked to evaluate this 
+most memorable experience, denoted by \(E_{ig}\), on a seven-point scale. The valence of the 
+most memorable experience is denoted by \(V_{ig}^{Experience}\) and is used to examine H6a 
+while controlling for overall contact frequency and quality. For respondents who report having had contact with a 
+migrant group but do not have a particular experience that comes to mind, \(V^{Experience}_{ig}\) is coded as missing.
+
+\subsubsection{Media Exposure and Information.}
+
+\noindent\textbf{Media exposure.} Respondents are asked how often they come across information about Ukrainian and 
+Syrian refugees living in Germany through media channels such as television, newspapers, online news, social media, 
+radio, podcasts, etc. The question is asked separately for each migrant group using a seven-point scale ranging from 
+1 (never) to 7 (several times per day). The resulting measure of media-exposure frequency is denoted by \(M_{ig}\), 
+with higher values indicating more frequent exposure to media information.\bigskip
+
+\noindent\textbf{Overall media tone.} Respondents are then asked to evaluate the tone (valence) of the media information they 
+have encountered about each migrant group using a seven-point scale ranging from 1 (very negative) to 7 (very positive), 
+with 4 representing neutral or balanced information. The resulting measure, \(T_{ig}\), captures the perceived tone 
+of the media information. This measure is used to examine H5 while controlling for the frequency of media exposure 
+\(M_{ig}\).\bigskip
+
+\noindent\textbf{Most memorable media information.} If respondents have had media exposure, similar to the most memorable 
+personal experience, respondents are asked whether a particular piece of media information immediately comes to mind. 
+They would respond with either ``Yes'' or ``No''. The most memorable piece of media information is denoted 
+by \(R_{ig}\) which stands for recall.\bigskip 
+
+\noindent\textbf{Valence of most memorable media information.} 
+Respondents who recall a particular piece of media information, \(R_{ig}\), are asked to evaluate it on a seven-point 
+scale. The valence of the most memorable media information is denoted by \(V^{Media}_{ig}\), with higher values 
+indicating more positive recalled information. This measure is used to examine H6b while controlling for media-exposure 
+frequency and overall media tone.
+
+The measures of memorable personal experiences and media information differ from controlled experimental settings in 
+which researchers manipulate the experiences participants encounter \citep{schwerter2020determinants} or observe the 
+information participants receive and can subsequently assess recall against this information \citep{graeber2024stories}. 
+In the present thesis, both personal experiences and media information exposure occur naturally as positive or negative experiences 
+in the lives of the respondents and are not observed by the researcher. The measures therefore capture respondents' 
+current subjective evaluations of the information that is most salient in memory rather than its objective valence or recall accuracy.
+This is relevant for the present thesis because the focus is on how respondents' own perceptions of certain experiences 
+and information are associated with their beliefs.
+
+\subsubsection{General Beliefs About Integration.}
+The questionnaire also includes some questions on more general group-level beliefs about the integration of Ukrainian and Syrian 
+migrants in Germany, capturing respondents' broader perceptions of the two migrant groups. These measures are not used 
+as primary outcomes for H1–H6. Instead, they can be used in descriptive and exploratory analyses that may help interpret 
+mechanism behind why respondents' beliefs differ between Ukrainians and Syrians.\bigskip 
+
+\noindent\textbf{Integration over time.} Integration itself can also develop with time spent in the host country and 
+can also differ across dimensions such as labor-market and social integration.
+Previous research shows that migrants' labor-market integration tends to improve with duration of residence, including 
+through higher employment and earnings, while initial labor-market disadvantages can narrow over time 
+\citep{brucker2020funf,fasani2022struggle}. There is also supporting evidence for social integration improving over time. 
+Longer residence can be associated with greater interaction with the host-country population and stronger social 
+integration \citep{niehues2021spracherwerb, hannafi2023social}. Such developments may also shape the beliefs of 
+the general German population about whether migrants become better integrated the longer they live in Germany. 
+
+Therefore, the questionnaire is designed to measure these two beliefs. Respondents are asked whether they agree 
+with the statements that (1) migrants become better integrated into the German labor market the longer they live in Germany,
+and that (2) they become more socially integrated the longer they live in Germany. Responses are 
+evaluated on a seven-point scale ranging from 1 (strongly disagree) to 7 (strongly agree). The resulting measures are 
+denoted by \(TimeLM_i\) and \(TimeSoc_i\), capturing general beliefs that labor-market and social integration, respectively, 
+improve with duration of residence.\bigskip
+
+\noindent\textbf{Establishment of Co-Ethnic Communities.} The potential role of co-ethnic networks may depend 
+on how established migrant communities are perceived to be. Respondents are therefore asked whether they agree
+that the Ukrainian and Syrian communities in Germany are well established. Responses are recorded on a seven-point scale. 
+The resulting measure is denoted by \(Comm_{ig}\), with higher values indicating a stronger belief that the respective 
+migrant community is well established in Germany. \bigskip
+
+\noindent\textbf{Community Networks: Labor-Market Facilitation.} Respondents may hold significant beliefs about the 
+different integration outcomes associated with community networks. The first mechanism is that co-ethnic 
+communities may facilitate migrants' labor-market integration by providing access to information and personal 
+networks that can help them find employment. Evidence from Germany shows that immigrants located in areas 
+with larger co-ethnic networks are more likely to find employment shortly after arrival and are more likely to find 
+their first job through personal contacts \citep{battisti2022dynamic}. Respondents are therefore asked whether they agree 
+that co-ethnic communities in Germany help newly arrived migrants find employment using a seven-point scale. 
+The measure is denoted by \(FacilEmp_{ig}\). \bigskip
+
+\noindent\textbf{Community Networks: Reduced Interaction with Germans.} The second mechanism is that co-ethnic 
+communities may also affect social integration by reducing migrants' interaction with the host-country population. 
+Evidence from Germany suggests that greater access to co-ethnic communities can reduce social interaction with natives 
+and may also negatively affect the language ability of migrants \citep{danzer2013ethnic, danzer2016ethnic}. 
+Respondents are therefore asked whether they agree with the statement that being able to rely on established 
+Ukrainian and Syrian communities reduces the need for newly arrived migrants to interact regularly with Germans. 
+Responses are recorded on a seven-point scale. The resulting measure is denoted by \(RedInt_{ig}\).
+
+\subsubsection{Respondent Controls.}
+Lastly, the questionnaire collects respondent controls which are standard demographic and socioeconomic characteristics. These include 
+respondents' age, gender, education, employment status, household income, region of residence in Germany, own and 
+parental migration background, religious affiliation, and political orientation. These variables are used to describe 
+the sample and as control variables. The exact wording, response categories, and coding of these variables are provided 
+in Appendix [X].
 
 \subsection{Randomization and Survey Procedure}

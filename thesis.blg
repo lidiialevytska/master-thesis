@@ -7,46 +7,47 @@ Warning--empty journal in echterhoff2023gefluchtete
 Warning--empty journal in enos2019causal
 Warning--there's a number but no volume in fasani2024refugees
 Warning--empty journal in guenther2024revisiting
+Warning--empty journal in niehues2021spracherwerb
 Warning--can't use both volume and number fields in sauer2011application
-You've used 57 entries,
+You've used 64 entries,
             1935 wiz_defined-function locations,
-            828 strings with 16063 characters,
-and the built_in function-call counts, 23519 in all, are:
-= -- 2329
-> -- 958
-< -- 31
-+ -- 334
-- -- 318
-* -- 2139
-:= -- 4064
-add.period$ -- 168
-call.type$ -- 57
-change.case$ -- 444
-chr.to.int$ -- 57
-cite$ -- 62
-duplicate$ -- 825
-empty$ -- 1635
-format.name$ -- 413
-if$ -- 4531
+            866 strings with 17447 characters,
+and the built_in function-call counts, 26224 in all, are:
+= -- 2600
+> -- 1069
+< -- 34
++ -- 370
+- -- 354
+* -- 2381
+:= -- 4541
+add.period$ -- 188
+call.type$ -- 64
+change.case$ -- 498
+chr.to.int$ -- 64
+cite$ -- 70
+duplicate$ -- 919
+empty$ -- 1820
+format.name$ -- 462
+if$ -- 5047
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 57
-newline$ -- 285
-num.names$ -- 171
-pop$ -- 327
+missing$ -- 63
+newline$ -- 319
+num.names$ -- 192
+pop$ -- 368
 preamble$ -- 1
-purify$ -- 444
+purify$ -- 497
 quote$ -- 0
-skip$ -- 636
+skip$ -- 707
 stack$ -- 0
-substring$ -- 1854
-swap$ -- 85
+substring$ -- 2057
+swap$ -- 90
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
-warning$ -- 5
-while$ -- 208
+type$ -- 384
+warning$ -- 6
+while$ -- 232
 width$ -- 0
-write$ -- 734
-(There were 5 warnings)
+write$ -- 822
+(There were 6 warnings)

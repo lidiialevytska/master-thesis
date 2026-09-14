@@ -13,7 +13,6 @@
 \contentsline {subsubsection}{\numberline {3.4.2}Media Exposure and Information.}{12}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}General Beliefs About Integration.}{13}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Respondent Controls.}{14}{subsubsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.5}Randomization and Survey Procedure}{15}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Empirical Strategy and Identification}{15}{section.4}%
 \contentsline {section}{\numberline {5}Limitations and Extensions}{16}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Extensions}{16}{subsection.5.1}%

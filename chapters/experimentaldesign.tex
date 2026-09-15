@@ -129,7 +129,7 @@ a separate hypothesis.
 The five binary attributes generate a full factorial design of \(2^5=32\) possible migrant profiles.
 The vignettes would be worded as follows:\bigskip
 
-A [man/woman] from [Ukraine/Syria] came to Germany. [He/She] came to Germany as [a refugee after fleeing 
+A [male/female] from [Ukraine/Syria] came to Germany. [He/She] came to Germany as [a refugee after fleeing 
 the war in his/her country / an economic migrant in search of better employment and economic opportunities in Germany]. 
 [He/She] [has no formal vocational qualification / has completed a university degree], speaks German 
 [only to a limited extent / well], and is currently looking for stable employment.\bigskip
@@ -140,9 +140,16 @@ randomly selected subset of six vignettes. This provides several profile evaluat
 the survey manageable, particularly because each vignette is followed by several belief questions about migrant outcomes. 
 The choice therefore reflects a trade-off between obtaining sufficient statistical information and limiting 
 cognitive burden and respondent fatigue, which are important considerations in factorial survey designs 
-\citep{sauer2011application}. The exact number of vignettes could be further assessed through pilot testing prior 
-to implementation. The order in which the six vignette profiles are presented to each respondent would also be randomized.
+\citep{sauer2011application}. The exact number of vignettes could be further assessed through pilot testing.
 
+Prior to implementation, the survey would be pilot tested with approximately 50 respondents from the target population. 
+The pilot would be used to assess survey completion time, attrition, potential respondent fatigue, and the performance 
+of the attention and data-quality checks. It would also be used to ensure that the vignette wording, questions, and 
+response scales are understandable and that the Qualtrics randomization functions correctly. In particular, dropout 
+patterns and response times across the survey would be examined to assess whether six vignette evaluations can reasonably 
+be completed without imposing excessive burden. Based on the pilot results and respondent feedback, the exact number of 
+vignettes and, where necessary, the wording or survey structure could be adjusted before the main study. The order in 
+which the vignette profiles are presented to each respondent would also be randomized.
 
 \subsection{Outcome Variables}
 The five outcome questions would be answered right after each vignette. They are designed to capture respondents' 
@@ -259,11 +266,11 @@ of the media information. This measure is used to examine H5 while controlling f
 \noindent\textbf{Most memorable media information.} If respondents have had media exposure, similar to the most memorable 
 personal experience, respondents are asked whether a particular piece of media information immediately comes to mind. 
 They would respond with either ``Yes'' or ``No''. The most memorable piece of media information is denoted 
-by \(R_{ig}\) which stands for recall.\bigskip 
+by \(I_{ig}\) which stands for information.\bigskip 
 
 \noindent\textbf{Valence of most memorable media information.} 
-Respondents who recall a particular piece of media information, \(R_{ig}\), are asked to evaluate it on a seven-point 
-scale. The valence of the most memorable media information is denoted by \(V^{Media}_{ig}\), with higher values 
+Respondents who recall a particular piece of media information, \(I_{ig}\), are asked to evaluate it on a seven-point 
+scale. The valence of the most memorable media information is denoted by \(V^{I}_{ig}\), with higher values 
 indicating more positive recalled information. This measure is used to examine H6b while controlling for media-exposure 
 frequency and overall media tone.
 
@@ -327,3 +334,26 @@ respondents' age, gender, education, employment status, household income, region
 parental migration background, religious affiliation, and political orientation. These variables are used to describe 
 the sample and as control variables. The exact wording, response categories, and coding of these variables are provided 
 in Appendix [X].
+
+\subsection{Data Quality and Processing.}
+
+Insufficient attention and careless responding can reduce the quality of data collected through self-administered online 
+surveys, making procedures for identifying potentially low-quality responses important \citep{berinsky2014separating, curran2016methods}. 
+The proposed survey would therefore include a simple instructed-response attention check and would record survey 
+completion times. Available data-quality controls provided by Qualtrics and the Bilendi panel would additionally be used, 
+where applicable, to identify duplicate or automated responses.
+
+Respondents would be flagged for potential low-quality responding based on failure of the attention check or implausibly 
+short completion times. The precise criteria for identifying such responses would be specified following pilot testing 
+and prior to the main analysis. Rather than automatically excluding respondents based on a single indicator, the 
+different indicators of response quality would be considered together. Robustness analyses could additionally examine 
+whether the results are sensitive to the inclusion of respondents flagged for potential low-quality responding.
+
+Data processing would distinguish between low-quality responses and legitimate missing or not-applicable responses. 
+Displayed survey questions would generally require a response before respondents could proceed. Where appropriate, 
+particularly for sensitive respondent characteristics, an explicit “prefer not to say” option would be provided. 
+Missing values may therefore arise from such explicit non-response options or from conditional questions that are not 
+displayed based on respondents’ preceding answers. These values would not automatically result in respondent-level 
+exclusion but would be treated according to the respective variable.
+Further details on the attention check, exclusion criteria, treatment and coding of missing responses, 
+and construction of derived variables would be provided in Appendix [X].

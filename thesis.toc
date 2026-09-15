@@ -12,11 +12,12 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Personal Contact and Experience.}{11}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Media Exposure and Information.}{12}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}General Beliefs About Integration.}{13}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Respondent Controls.}{14}{subsubsection.3.4.4}%
-\contentsline {section}{\numberline {4}Empirical Strategy and Identification}{15}{section.4}%
-\contentsline {section}{\numberline {5}Limitations and Extensions}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Extensions}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Limitations and Identification Constraints}{16}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Conclusion}{16}{section.6}%
-\contentsline {section}{References}{17}{section.6}%
-\contentsline {section}{\numberline {A}Appendix A: Proposed Survey Instrument}{23}{appendix.A}%
+\contentsline {subsubsection}{\numberline {3.4.4}Respondent Controls.}{15}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}Data Quality and Processing.}{15}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Empirical Strategy and Identification}{16}{section.4}%
+\contentsline {section}{\numberline {5}Limitations and Extensions}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Extensions}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Limitations and Identification Constraints}{17}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{17}{section.6}%
+\contentsline {section}{References}{18}{section.6}%
+\contentsline {section}{\numberline {A}Appendix A: Proposed Survey Instrument}{24}{appendix.A}%

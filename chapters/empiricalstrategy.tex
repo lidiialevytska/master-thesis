@@ -1,12 +1,218 @@
-\section{Empirical Strategy and Identification}
+\section{Empirical Strategy}
+
+\subsection{Experimental Analysis: Identification and Tests of H1–H3}
+
+The first part of the empirical analysis examines how the experimentally varied characteristics of the migrant profiles 
+affect respondents' beliefs about migrants' labor-market and social integration outcomes. The unit of observation is a 
+vignette evaluation, where respondent \(i\) evaluates migrant profile \(j\). Since each respondent evaluates several 
+migrant profiles, the analysis contains multiple observations for each respondent.
+
+The factorial vignette design independently randomizes five characteristics across profiles: country of origin, reason 
+for migration, gender, human capital, and German-language proficiency (see Chapter 3). Random assignment makes these 
+characteristics independent of respondents’ pre-existing characteristics and, in expectation, of the other randomized 
+profile attributes. The experimental variation can therefore be used to identify the causal effect of each presented 
+migrant characteristic on respondents’ stated beliefs. In other words, the experiment identifies how respondents’ 
+beliefs change when one characteristic of the migrant profile changes. For example, it identifies how respondents’ 
+beliefs differ when an otherwise identical migrant is presented as Ukrainian rather than Syrian.
+
+\subsubsection{Variables and Baseline Specification}
+
+\noindent\textbf{Baseline specification.} The five outcome variables introduced in Section 3.3 are analyzed separately. 
+Let \(Y_{ij}^{k}\) denote respondent \(i\)'s belief about outcome \(k\) for vignette profile \(j\), where
+$$ k\in\{\mathrm{Emp},\mathrm{Inc},\mathrm{Hire},\mathrm{Work},\mathrm{Soc}\}. $$
+\(Y_{ij}^{\mathrm{Emp}}\) denotes the expected probability of obtaining regular paid employment within two years, 
+\(Y_{ij}^{\mathrm{Inc}}\) denotes expected monthly net income, \(Y_{ij}^{\mathrm{Hire}}\) and \(Y_{ij}^{\mathrm{Work}}\) 
+denote expected discrimination in hiring and in the workplace, respectively, and \(Y_{ij}^{\mathrm{Soc}}\) denotes 
+expected social integration.
+
+The randomized vignette characteristics are represented by five binary variables. \(Ukr_j\) equals one if profile \(j\) 
+describes a Ukrainian migrant and zero if the migrant is Syrian. \(Ref_j\) equals one if the migrant is presented as a 
+war refugee and zero if the migrant is presented as an economic migrant. \(Fem_j\) equals one for a female migrant and 
+zero for a male migrant. \(HighSkill_j\) equals one if the migrant has completed a university degree and zero if the 
+migrant has no formal vocational qualification. Finally, \(German_j\) equals one if the migrant speaks German well and 
+zero if the migrant speaks German only to a limited extent. These definitions imply that the reference profile 
+is a male Syrian economic migrant without a formal vocational qualification who speaks German only to a limited extent.
+
+For each outcome \(k\), the baseline specification is
+\begin{equation}
+\begin{aligned}
+Y_{ij}^{k}
+&= \alpha^{k}
++ \beta_{1}^{k} Ukr_{j}
++ \beta_{2}^{k} Ref_{j}
++ \beta_{3}^{k} Fem_{j}
++ \beta_{4}^{k} HighSkill_{j}
++ \beta_{5}^{k} German_{j}
++ \varepsilon_{ij}^{k}.
+\end{aligned}
+\label{eq:baseline}
+\end{equation}
+The coefficients \(\beta_1^k\) to \(\beta_5^k\) capture the average causal effects of the respective randomized vignette 
+characteristics on outcome \(k\), relative to their reference categories and averaging over the randomized values of 
+the remaining profile characteristics. The baseline specifications are estimated using linear regression, and the 
+interpretation of the coefficients depends on the respective outcome measure. For the employment outcome, which is 
+measured on a 0–100 probability scale, coefficients are expressed in percentage points. For the income outcome, the 
+seven ordered categories are coded from 1 to 7, so coefficients are expressed in income-category points rather than as 
+specific differences in euros. For the remaining outcomes, which are measured on seven-point response scales, 
+coefficients are expressed in scale points. Since the ordinal response categories cannot necessarily be assumed to 
+be equally spaced, ordered logit models are additionally estimated as robustness checks.
+The term \(\varepsilon_{ij}^{k}\) denotes the error term and captures variation in respondent \(i\)'s evaluation of 
+profile \(j\) for outcome \(k\) that is not explained by the variables included in the regression.\bigskip
 
 
-1. Explained vignette attributes:
-$Origin_{j}$
-$MigrationStatus_{j}$
-$Gender_{j}$
-$Education_{j}$
-$GermanSkills_{j}$
+\noindent\textbf{Adjusted specification.} Because the vignette attributes are independently randomized, respondent-level controls are not required for 
+identification of the coefficients in equation (1). The unadjusted specification therefore constitutes the main 
+specification for estimating the experimental effects. As an adjusted specification, respondent background 
+characteristics can additionally be included:
+\begin{equation}
+\begin{aligned}
+Y_{ij}^{k}
+&= \alpha^{k}
++ \beta_{1}^{k}Ukr_j
++ \beta_{2}^{k}Ref_j
++ \beta_{3}^{k}Fem_j
++ \beta_{4}^{k}HighSkill_j \\
+&\quad
++ \beta_{5}^{k}German_j
++ \boldsymbol{\delta}^{k\prime}X_i
++ \varepsilon_{ij}^{k}.
+\end{aligned}
+\end{equation}
+where \(X_i\) is a vector of respondent-level controls including age, gender, education, employment status, household 
+net income, migration background, region of residence in Germany, religion, and political self-placement, and is denoted by
+\[
+X_i =
+\left(
+Age_i,\,
+Gender_i,\,
+Edu_i,\,
+Emp_i,\,
+Inc_i,\,
+Mig_i,\,
+East_i,\,
+Religion_i,\,
+Right_i
+\right)'.
+\]
+The inclusion of \(X_i\) does not provide the source of identification for the randomized vignette effects, but this
+adjusted specification can be used to assess the robustness and potentially improve the precision of the experimental 
+estimates. The construction and use of the respondent-level controls are discussed further in Section 4.4.\bigskip
+
+\noindent\textbf{Standard errors.} Since each respondent evaluates multiple vignette profiles, observations belonging to the same respondent cannot be 
+treated as statistically independent. Standard errors are therefore clustered at the respondent level in all 
+vignette-level specifications, allowing the regression residuals to be correlated across the profiles evaluated by the 
+same respondent. This accounts for the repeated-evaluation structure of the proposed experiment.
+
+\subsubsection{Main Effects: H1a, H1b, H2, H3a, and H3b}
+
+The baseline specification in equation (1) is used to test the main effects predicted in H1a, H1b, H2, H3a, and H3b. 
+Since several hypotheses concern more than one outcome, the specification is estimated separately for each outcome 
+relevant to the respective hypothesis. For each hypothesis, the predicted direction of the corresponding coefficients 
+is specified below. The interpretation considers the direction and magnitude of the estimated effects as well as their 
+statistical uncertainty, reported using 95\% confidence intervals. If the results differ across outcomes, 
+these differences are reported and discussed separately rather than assigning one overall conclusion to the hypothesis. 
+The adjusted specification in equation (2) is additionally estimated as a robustness check.\bigskip
+
+\noindent\textbf{Testing H1a.} H1a predicts that migrants with higher human capital are expected to achieve more 
+favorable labor-market integration outcomes. Equation (1) is therefore estimated for the employment and income 
+outcomes, \(Y_{ij}^{\mathrm{Emp}}\) and \(Y_{ij}^{\mathrm{Inc}}\). The coefficient of interest is \(\beta_{4}^{k}\) on \(HighSkill_j\), 
+which captures the causal effect of presenting a migrant with a university degree rather than with no formal vocational 
+qualification on respondents’ beliefs about the respective outcome. H1a predicts
+$$ \beta_{4}^{\mathrm{Emp}}>0 \qquad \text{and} \qquad \beta_{4}^{\mathrm{Inc}}>0. $$
+Thus, positive coefficients indicate more favorable beliefs about the respective labor-market outcomes for profiles 
+with higher human capital.\bigskip
+
+\noindent\textbf{Testing H1b.} H1b predicts that migrants with higher German-language proficiency are expected to 
+achieve more favorable labor-market and social-integration outcomes. Equation (1) is therefore estimated
+\(Y_{ij}^{\mathrm{Emp}}\), \(Y_{ij}^{\mathrm{Inc}}\), and expected social integration \(Y_{ij}^{\mathrm{Soc}}\). 
+The coefficient of interest is \(\beta_{5}^{k}\) on \(German_j\), which captures the causal effect of presenting a 
+migrant as speaking German well rather than only to a limited extent on respondents’ beliefs. H1b predicts
+$$ \beta_{5}^{\mathrm{Emp}}>0, \qquad \beta_{5}^{\mathrm{Inc}}>0, \qquad \text{and} \qquad \beta_{5}^{\mathrm{Soc}}>0. $$
+Thus, positive coefficients indicate more favorable beliefs about the respective outcomes for profiles with higher 
+German-language proficiency.\bigskip
+
+\noindent\textbf{Testing H2.} H2 predicts that refugees are expected to achieve less favorable labor-market integration 
+outcomes than otherwise comparable economic migrants. Equation (1) is estimated for \(Y_{ij}^{\mathrm{Emp}}\) and 
+\(Y_{ij}^{\mathrm{Inc}}\). The coefficient of interest is \(\beta_{2}^{k}\) on \(Ref_j\), which captures the causal effect of 
+presenting a migrant as a war refugee rather than as an economic migrant on respondents’ beliefs. H2 predicts
+$$ \beta_{2}^{\mathrm{Emp}}<0 \qquad \text{and} \qquad \beta_{2}^{\mathrm{Inc}}<0. $$
+Thus, negative coefficients indicate less favorable beliefs about the respective outcomes for profiles 
+presented as refugees rather than economic migrants.\bigskip
+
+\noindent\textbf{Testing H3a.} H3a predicts that Ukrainian migrants are expected to achieve more favorable labor-market 
+and social-integration outcomes than otherwise comparable Syrian migrants. Equation (1) is estimated for 
+\(Y_{ij}^{\mathrm{Emp}}\), \(Y_{ij}^{\mathrm{Inc}}\), and \(Y_{ij}^{\mathrm{Soc}}\). The coefficient of interest is 
+\(\beta_{1}^{k}\) on \(Ukr_j\), which captures the causal effect of presenting a migrant as Ukrainian rather than 
+Syrian on respondents’ beliefs. H3a predicts
+$$ \beta_{1}^{\mathrm{Emp}}>0, \qquad \beta_{1}^{\mathrm{Inc}}>0, \qquad \text{and} \qquad \beta_{1}^{\mathrm{Soc}}>0. $$
+Thus, positive coefficients indicate more favorable beliefs about the respective outcomes for profiles presented as 
+Ukrainian rather than Syrian.\bigskip
+
+\noindent\textbf{Testing H3b.} H3b examines country-of-origin differences in expected labor-market discrimination and 
+predicts that Syrian migrants are expected to face greater discrimination than otherwise comparable Ukrainian migrants. 
+The hypothesis is tested using the country-of-origin indicator, \(Ukr_j\), with \(Y_{ij}^{\mathrm{Hire}}\) and 
+\(Y_{ij}^{\mathrm{Work}}\) as the dependent variables. An important difference from the preceding outcomes is that 
+higher values of both discrimination measures indicate a less favorable outcome, namely greater expected discrimination. 
+Since Syria is the reference category and \(Ukr_j=1\) represents Ukraine, H3b therefore predicts
+$$ \beta_{1}^{\mathrm{Hire}}<0 \qquad \text{and} \qquad \beta_{1}^{\mathrm{Work}}<0. $$
+Negative coefficients thus indicate that profiles presented as Ukrainian are expected to face less hiring and workplace 
+discrimination than otherwise comparable Syrian profiles.
+
+\subsubsection{Interaction Effects: H3c and Additional Analysis}
+
+\noindent\textbf{Testing H3c.} While H3a and H3b examine average country-of-origin differences in expected integration 
+and discrimination outcomes, H3c examines whether the size of these differences varies systematically between the two reasons for migration. 
+Specifically, H3c predicts that differences between Ukrainian and Syrian migrants are greater when migrants are 
+presented as refugees than when they are presented as economic migrants. 
+
+To test this hypothesis, an interaction term between country of origin and reason for migration is added to the baseline specification:
+\begin{equation}
+\begin{aligned}
+Y_{ij}^{k}
+&= \alpha^{k}
++ \beta_{1}^{k}Ukr_j
++ \beta_{2}^{k}Ref_j
++ \beta_{3}^{k}Fem_j
++ \beta_{4}^{k}HighSkill_j
++ \beta_{5}^{k}German_j \\
+&\quad
++ \beta_{6}^{k}(Ukr_j \times Ref_j)
++ \varepsilon_{ij}^{k}.
+\end{aligned}
+\end{equation}
+Since \(Ref_j=0\) represents economic migrants, \(\beta_{1}^{k}\) captures the Ukrainian–Syrian difference among 
+economic migrants. When \(Ref_j=1\), the corresponding Ukrainian–Syrian difference among refugees is given by 
+\(\beta_{1}^{k}+\beta_{6}^{k}\). Thus, \(\beta_{6}^{k}\) captures how the country-of-origin difference changes 
+when migrants are presented as refugees rather than economic migrants. For employment, income, and social integration, 
+higher values represent more favorable outcomes and H3c therefore predicts
+$$ \beta_{6}^{\mathrm{Emp}}>0,\qquad \beta_{6}^{\mathrm{Inc}}>0,\qquad \beta_{6}^{\mathrm{Soc}}>0. $$
+For hiring and workplace discrimination, higher values instead represent greater expected discrimination. 
+Since Ukrainian migrants are expected to face less discrimination, a larger country-of-origin difference among refugees 
+corresponds to a more negative Ukrainian–Syrian difference. H3c therefore predicts
+$$ \beta_{6}^{\mathrm{Hire}}<0 \qquad\text{and}\qquad \beta_{6}^{\mathrm{Work}}<0. $$
+
+In addition to the interaction coefficient, the conditional country-of-origin difference among refugees, 
+\(\beta_{1}^{k}+\beta_{6}^{k}\), is reported together with its 95\% confidence interval. This shows whether the 
+Ukrainian–Syrian difference among refugees itself is in the direction predicted by H3a and H3b, while 
+\(\beta_{6}^{k}\) tests whether this difference is greater among refugees than among economic migrants.\bigskip
+
+\noindent\textbf{Additional human-capital analysis.} In addition to H3c, the analysis similarly explores whether the 
+Ukrainian–Syrian difference in expected integration outcomes varies with migrants’ human capital. For this purpose, 
+the equation (1) is extended separately by the interaction \(Ukr_j\times HighSkill_j\). If higher human capital reduces 
+the Ukrainian–Syrian gap in expected integration outcomes, the coefficient on this interaction is expected to be 
+negative. This analysis is treated as supporting rather than as a separate hypothesis.
+
+\subsection{Associational Analysis: Contact, Experience, Media, and Memory}
+
+\subsubsection{Contact and Experience}
+\subsubsection{Media Exposure}
+\subsubsection{Memorable Experiences and Information}
+
+\subsection{General Beliefs and Exploratory Analyses}
+
+\subsection{Robustness, Data Treatment, and Interpretation}
+
+
 
 Citing measurement sources for the respondent questionnaire:
 $C_{ig}^{Work}$ workplace contact frequency, 
@@ -32,97 +238,3 @@ Slower integration.
 Construct:
 
 $\Delta B_i^{\mathrm{Network}} = B_{i,\mathrm{S}}^{\mathrm{Network}} - B_{i,\mathrm{U}}^{\mathrm{Network}}$
-
-
-Identification and equations: 
-Baseline equation:
-\[
-Y_{ij}
-=
-\alpha
-+
-\beta_1 Ukr_j
-+
-\beta_2 Ref_j
-+
-\beta_3 Female_j
-+
-\beta_4 HighSkill_j
-+
-\beta_5 German_j
-+
-\varepsilon_{ij}.\]
-
-Adjusted specification:
-\[
-Y_{ij}
-=
-\alpha
-+
-\beta_1 Ukr_j
-+
-\beta_2 Ref_j
-+
-\beta_3 Female_j
-+
-\beta_4 HighSkill_j
-+
-\beta_5 German_j
-+
-\boldsymbol{\delta}'\mathbf{X}_i
-+
-\varepsilon_{ij}.\]
-
-H4 regression with interaction term:
-\[Y_{ij}
-=
-\alpha
-+
-\beta_1 Ukraine_j
-+
-\beta_2 Refugee_j
-+
-\beta_3
-\left(
-Ukraine_j \times Refugee_j
-\right)
-+
-\boldsymbol{\gamma}'\mathbf{Z}_j
-+
-\varepsilon_{ij}.
-\]
-
-where \[\mathbf{Z}_j
-=
-\begin{pmatrix}
-Female_j \\
-HighSkill_j \\
-GoodGerman_j
-\end{pmatrix}\]
-
-\[
-\mathbf{X}_i
-=
-\left(
-Age_i,\,
-Gender_i,\,
-Edu_i,\,
-Emp_i,\,
-Inc_i,\,
-Mig_i,\,
-East_i,\,
-Religion_i,\,
-Right_i
-\right)'.\]
-
-Then,
-\[Y_{ij}
-=
-\alpha
-+
-\boldsymbol{\beta}'\mathbf{Z}_j
-+
-\boldsymbol{\theta}'\mathbf{X}_i
-+
-\varepsilon_{ij},\] where \(\boldsymbol{\theta}\) is the vector of coefficients associated with the respondent controls, 
-and \(\mathbf{Z}_j\) is contains the randomized vignette characteristics and \(\mathbf{X}_i\) contains respondent-level controls.

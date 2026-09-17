@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1789492553.24267 "thesis.aux" "thesis.bbl" "thesis" 1789502044.84743 0
-  "./references.bib" 1789488914.51015 25561 34b492d3f0ea5d1771b72bcc3de0eea2 ""
+["bibtex thesis"] 1789668323.60694 "thesis.aux" "thesis.bbl" "thesis" 1789671037.27942 0
+  "./references.bib" 1789657106.22642 25559 0c1805fc5e4e580c531260847325a009 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "thesis.aux" 1789502044.62064 10411 080fa088b99ade2e9045d63ab5c2575f "pdflatex"
+  "thesis.aux" 1789671037.06705 12018 2da86eee6874e09c320d1fb44a014ea9 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1789502044.03093 "/Users/lydia/Desktop/MasterThesis/thesis.tex" "thesis.pdf" "thesis" 1789502044.84757 0
+["pdflatex"] 1789671036.51087 "/Users/lydia/Desktop/MasterThesis/thesis.tex" "thesis.pdf" "thesis" 1789671037.27959 0
   "/Users/lydia/Desktop/MasterThesis/thesis.tex" 1788884427.74757 954 74c72d055282d155865edab5ab0de690 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -39,7 +39,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1248133631 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
@@ -115,19 +114,19 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "appendix/appendix.tex" 1788884860.35312 426 df3901f5427216ba3615f49f5f0b2dc5 ""
   "chapters/conclusion.tex" 1787833891.33797 21 5263826852d7c88eadf74b948137ff83 ""
-  "chapters/empiricalstrategy.tex" 1789265151.3416 1862 4ae3a7bc8e7143fb6a456a264ac9e22d ""
-  "chapters/experimentaldesign.tex" 1789502043.77871 27364 3887ea4ee656348f5a2453ce0cf9d088 ""
+  "chapters/empiricalstrategy.tex" 1789671036.27163 15172 4ed705bc1d5100d34013e72149812830 ""
+  "chapters/experimentaldesign.tex" 1789665623.15028 27387 9510928ff176546207a28181fc6133c3 ""
   "chapters/introduction.tex" 1786106609.38298 22 5c23bcd9d46cf48d2292896666a8a8fc ""
   "chapters/limitations.tex" 1787833863.82958 118 bb9ba3a87a0cdc76765d09fd1d5b147d ""
-  "chapters/literature review.tex" 1789150062.29348 19450 95abb27c578eccee094babdfd734169f ""
+  "chapters/literature review.tex" 1789656431.11295 19449 c5a97cf06ad5b5819a597fc7eec13c98 ""
   "cover.tex" 1786105181.42511 650 63212a0e093e5a71cb70bc70395855a4 ""
   "declaration.tex" 1786106050.68373 444 899bf95df0f189fddd4a0c0460228ef3 ""
   "preamble.tex" 1788544331.77331 437 e60477221d874ca218a71d4aa8b04fad ""
-  "thesis.aux" 1789502044.62064 10411 080fa088b99ade2e9045d63ab5c2575f "pdflatex"
-  "thesis.bbl" 1789492553.33362 18104 69aad52c24bf7e61ad0c6a16e428592c "bibtex thesis"
-  "thesis.out" 1789502044.62171 5019 d58c487e2234c2a40785f01a5f2086ee "pdflatex"
+  "thesis.aux" 1789671037.06705 12018 2da86eee6874e09c320d1fb44a014ea9 "pdflatex"
+  "thesis.bbl" 1789668323.69678 18104 69aad52c24bf7e61ad0c6a16e428592c "bibtex thesis"
+  "thesis.out" 1789671037.06804 7684 246d9b5cdc95151a30a5ab56bd87df68 "pdflatex"
   "thesis.tex" 1788884427.74757 954 74c72d055282d155865edab5ab0de690 ""
-  "thesis.toc" 1789502044.62193 2195 6ddb616614d6d88f80f97d685b9c5bcb "pdflatex"
+  "thesis.toc" 1789671037.06835 3308 9292c0124537e32c0b40c10c06a196c6 "pdflatex"
   (generated)
   "thesis.aux"
   "thesis.log"

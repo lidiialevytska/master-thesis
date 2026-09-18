@@ -105,13 +105,17 @@ same respondent. This accounts for the repeated-evaluation structure of the prop
 
 \subsubsection{Main Effects: H1a, H1b, H2, H3a, and H3b}
 
-The baseline specification in equation (1) is used to test the main effects predicted in H1a, H1b, H2, H3a, and H3b. 
-Since several hypotheses concern more than one outcome, the specification is estimated separately for each outcome 
-relevant to the respective hypothesis. For each hypothesis, the predicted direction of the corresponding coefficients 
-is specified below. The interpretation considers the direction and magnitude of the estimated effects as well as their 
-statistical uncertainty, reported using 95\% confidence intervals. If the results differ across outcomes, 
-these differences are reported and discussed separately rather than assigning one overall conclusion to the hypothesis. 
-The adjusted specification in equation (2) is additionally estimated as a robustness check.\bigskip
+Since several hypotheses include more than one outcome variable, equation (1) is estimated separately for each relevant 
+outcome. For each hypothesis, the coefficient of interest and its predicted sign are specified below. The estimated 
+coefficient shows the direction and size of the effect, while 95\% confidence intervals are reported to indicate the 
+uncertainty around the estimate. The estimated effect is reported and interpreted separately for each outcome. For 
+example, if the results differ between employment and income, this difference is reported explicitly rather than 
+combining the outcomes into a single measure of support for the hypothesis. Whether the results provide support for 
+the respective hypothesis is determined from the pattern of the estimates, considering their predicted 
+direction, magnitude, and statistical uncertainty. This avoids imposing a strict rule for hypothesis support before the empirical results are observed.
+Since testing multiple outcomes also raises a multiple-testing concern, this is accounted for in the statistical 
+inference, which will further be discussed in Section 4.4. 
+Equation (2), which additionally includes respondent-level controls, is estimated as a robustness check.\bigskip
 
 \noindent\textbf{Testing H1a.} H1a predicts that migrants with higher human capital are expected to achieve more 
 favorable labor-market integration outcomes. Equation (1) is therefore estimated for the employment and income 
@@ -204,15 +208,197 @@ negative. This analysis is treated as supporting rather than as a separate hypot
 
 \subsection{Associational Analysis: Contact, Experience, Media, and Memory}
 
-\subsubsection{Contact and Experience}
-\subsubsection{Media Exposure}
-\subsubsection{Memorable Experiences and Information}
+Section 4.2 examines H4–H6, which concern the relationship between respondents’ personal contact, 
+media exposure, most memorable experiences and information and their beliefs about migrant integration. 
+Unlike the vignette characteristics analyzed in Section 4.1, these respondent-level measures are not randomly 
+assigned. The corresponding coefficients are therefore interpreted as conditional associations rather than 
+causal effects. The analysis controls for relevant observed characteristics and, where appropriate, exploits 
+within-respondent differences between experiences with Ukrainian and Syrian migrants. These specifications can 
+reduce some sources of confounding but cannot rule out selection, reverse causality, or unobserved factors that 
+may jointly influence respondents’ experiences, information exposure, and beliefs. These limitations are considered 
+further in Section 4.4. 
+
+\subsubsection{Contact and Experience: H4a–H4b}
+
+\noindent\textbf{Testing H4a.} H4a predicts that, conditional on contact frequency, more positive overall personal 
+experiences with a migrant group are associated with more favorable beliefs about its integration outcomes.
+
+Because contact and experience are measured separately for Ukrainian and Syrian migrants, these measures are matched 
+to the country of origin presented in each vignette. Let \(g(j)\in\{\mathrm{Ukrainian},\mathrm{Syrian}\}\) denote the 
+country-of-origin group presented in vignette \(j\). Thus, \(C_{i,g(j)}\) and \(Q_{i,g(j)}\) refer to respondent \(i\)'s 
+contact frequency and overall contact quality, respectively, with the group presented in vignette \(j\). 
+For example, a Ukrainian vignette is matched to the respondent's reported contact and experience with Ukrainian migrants.
+
+To test H4a, the following specification is estimated:
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++ \boldsymbol{\beta}^{k\prime} Z_j
++ \gamma_{C}^{k} C_{i,g(j)}
++ \gamma_{Q}^{k} Q_{i,g(j)}
++ \boldsymbol{\delta}^{k\prime} X_i
++ \varepsilon_{ij}^{k},
+\end{equation}
+where \(Z_j\) is the vector of randomized vignette characteristics,
+\[
+Z_j =
+\left(
+Ukr_j,\,
+Ref_j,\,
+Fem_j,\,
+HighSkill_j,\,
+German_j
+\right)'.
+\]
+\(X_i\) contains the respondent-level controls defined above. The coefficient of interest for H4a is \(\gamma_Q^k\), 
+which captures the association between the overall quality of contact with the relevant migrant group and respondent 
+beliefs. \(C_{i,g(j)}\), is included so that the association between overall contact quality and beliefs is estimated 
+conditional on how frequently respondents have contact with the respective migrant group. Its coefficient, 
+\(\gamma_C^k\), captures the association between contact frequency and beliefs, holding overall contact quality
+and the other included variables constant.
+
+H4a predicts that more positive contact is associated with more favorable beliefs about employment, income, and 
+social-integration outcomes:
+\[
+\gamma_Q^{\mathrm{Emp}}>0,\qquad
+\gamma_Q^{\mathrm{Inc}}>0,\qquad
+\gamma_Q^{\mathrm{Soc}}>0.
+\]
+
+\noindent\textbf{Testing H4b.} H4b examines whether negative personal experiences are more strongly associated with 
+respondents' beliefs than positive personal experiences. Using the positive and negative experience measures 
+\(Positive_{ig}\) and \(Negative_{ig}\) constructed from \(Q_{ig}\) as described in Section 3.4.1, the two measures are 
+included simultaneously in the following specification:
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++ \boldsymbol{\beta}^{k\prime}Z_j
++ \gamma_C^{k}C_{i,g(j)}
++ \gamma_P^{k}Positive_{i,g(j)}
++ \gamma_N^{k}Negative_{i,g(j)}
++ \boldsymbol{\delta}^{k\prime}X_i
++ \varepsilon_{ij}^{k}.
+\end{equation}
+For the employment, income, and social-integration outcomes, more positive experiences are expected to be associated 
+with more favorable beliefs, whereas more negative experiences are expected to be associated with less favorable beliefs. 
+Thus,
+\[
+\gamma_P^{\mathrm{Emp}},\,
+\gamma_P^{\mathrm{Inc}},\,
+\gamma_P^{\mathrm{Soc}}>0,
+\qquad
+\gamma_N^{\mathrm{Emp}},\,
+\gamma_N^{\mathrm{Inc}},\,
+\gamma_N^{\mathrm{Soc}}<0.
+\]
+H4b, however, predicts not only opposite directions but also a stronger association for negative than for equally 
+strong positive experiences. This prediction can be tested by comparing the absolute magnitudes of their coefficients. 
+For each relevant outcome \(k\), H4b predicts
+\[
+-\gamma_N^{k}>\gamma_P^{k},
+\]
+or equivalently,
+\[
+\gamma_P^{k}+\gamma_N^{k}<0.
+\]
+The comparison therefore tests whether moving one unit toward a more negative experience is associated with a larger 
+change in beliefs than an equivalent one-unit movement toward a more positive experience.
+
+\subsubsection{Media Exposure and Tone: H5}
+
+\noindent\textbf{Testing H5.} H5 examines whether the overall valence of media information concerning a migrant group 
+is associated with respondents' beliefs about that group's integration outcomes, conditional on the frequency of media 
+exposure. As in the contact analysis, the group-specific media measures are matched to the country of origin presented 
+in each vignette. The following specification is estimated:
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++ \boldsymbol{\beta}^{k\prime}Z_j
++ \gamma_M^{k}M_{i,g(j)}
++ \gamma_T^{k}T_{i,g(j)}
++ \boldsymbol{\delta}^{k\prime}X_i
++ \varepsilon_{ij}^{k}.
+\end{equation}
+The coefficient of interest is \(\gamma_T^{k}\) on \(T_{i,g(j)}\), which captures the association between the overall 
+tone of media information and respondent beliefs. \(M_{i,g(j)}\) is included so that the association between media tone 
+and beliefs is estimated conditional on how frequently respondents encounter media information about the respective 
+migrant group. Its coefficient, \(\gamma_M^k\), captures the association between media-exposure frequency and beliefs, 
+holding media tone and the other included variables constant.
+
+For the employment, income, and social-integration outcomes, H5 predicts that more positive media information is 
+associated with more favorable beliefs:
+\[
+\gamma_T^{\mathrm{Emp}}>0,\qquad
+\gamma_T^{\mathrm{Inc}}>0,\qquad
+\gamma_T^{\mathrm{Soc}}>0.
+\]
+
+\subsubsection{Memorable Experiences and Information: H6a–H6b}
+
+\noindent\textbf{Testing H6a.} H6a examines whether the valence of a respondent's most memorable personal experience 
+with a migrant group is associated with beliefs, conditional on contact frequency and overall contact quality. 
+The valence of the most memorable experience, \(V_{ig}^{\mathrm{E}}\), is observed only when the respondent reports 
+that such an experience comes to mind (\(E_{ig}=1\)). The following specification is therefore estimated only for the 
+observations satisfying \(E_{i,g(j)}=1\):
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++ \boldsymbol{\beta}^{k\prime}Z_j
++ \gamma_C^{k}C_{i,g(j)}
++ \gamma_Q^{k}Q_{i,g(j)}
++ \gamma_E^{k}V_{i,g(j)}^{\mathrm{E}}
++ \boldsymbol{\delta}^{k\prime}X_i
++ \varepsilon_{ij}^{k}.
+\end{equation}
+The coefficient of interest is \(\gamma_E^{k}\). Thus, H6a examines whether memorable-experience valence is associated 
+with beliefs even after respondents' overall experiences with the respective migrant group are taken into account. 
+The direction, magnitude, and statistical uncertainty of \(\gamma_E^{k}\) are reported for each relevant outcome.\bigskip
+
+\noindent\textbf{Testing H6b.} H6b examines the corresponding relationship for respondents' most memorable media 
+information. Similarly, \(V_{ig}^{\mathrm{I}}\) is observed only when the respondent reports that a particularly 
+memorable piece of media information exists, \(I_{ig}=1\). Then, the following specification is estimated:
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++ \boldsymbol{\beta}^{k\prime}Z_j
++ \gamma_M^{k}M_{i,g(j)}
++ \gamma_T^{k}T_{i,g(j)}
++ \gamma_I^{k}V_{i,g(j)}^{\mathrm{I}}
++ \boldsymbol{\delta}^{k\prime}X_i
++ \varepsilon_{ij}^{k}.
+\end{equation}
+The coefficient of interest is \(\gamma_I^{k}\). H6b therefore examines whether the valence of memorable media 
+information is associated with beliefs conditional on respondents’ overall assessment of the media information they 
+encounter. The direction, magnitude, and statistical uncertainty of \(\gamma_I^{k}\) are reported for each relevant 
+outcome.\bigskip
+
+\noindent\textbf{Supporting analyses.} In addition to H6a and H6b, I propose comparing the coefficients of the overall 
+and memorable measures to examine whether their associations with respondents’ beliefs differ. This suggests comparing 
+\(\gamma_Q^{k}\) and \(\gamma_E^{k}\) for contact experiences, and \(\gamma_T^{k}\) and \(\gamma_I^{k}\) for media 
+information. Since the measures are recorded on the same seven-point scales, this makes it possible to test whether 
+the corresponding coefficients differ from one another. The comparisons are interpreted cautiously because respondents’ 
+overall assessments may themselves partly reflect their most memorable experiences or information. Conversely, the 
+overall and memorable measures may also differ substantially, for example when a respondent reports generally positive 
+experiences but recalls a particularly negative experience as most memorable. In such cases, the analysis can show 
+whether beliefs are more strongly associated with the overall or the memorable measure.
+
+As an additional exploratory analysis, the specifications used to examine H4--H6 are also estimated using the two 
+discrimination outcomes, \(Y_{ij}^{\mathrm{Hire}}\) and \(Y_{ij}^{\mathrm{Work}}\). While H4--H6 focus on beliefs 
+about integration outcomes, this extension examines whether respondents' contact experiences and media 
+information are also associated with beliefs about the discrimination faced by the respective migrant group. 
+The results are interpreted as exploratory associations.
 
 \subsection{General Beliefs and Exploratory Analyses}
 
 \subsection{Robustness, Data Treatment, and Interpretation}
 
-
+explain the robustness of 1-7 and the hypothesis outcomes/decisions 
+multiple testing problem
 
 Citing measurement sources for the respondent questionnaire:
 $C_{ig}^{Work}$ workplace contact frequency, 

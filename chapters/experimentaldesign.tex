@@ -207,7 +207,8 @@ contact with Ukrainian and Syrian migrants during the past 12 months. Non-work c
 of a workplace setting, for example as friends, neighbours, acquaintances, through clubs, or in other social settings. 
 Both questions use the same seven-point frequency scale ranging from 1 (never) to 7 (several times per day).
 For more details on the exact wording of the questions and response scales, see Appendix [X].
-For each migrant group, the two measures are combined into an overall contact exposure measure \(C_{ig}\):
+For each migrant group, the two measures are combined into an overall contact exposure measure \(C_{ig}\), which is 
+constructed as the mean of the available workplace and non-work contact measures:
 
 $$ C_{ig}=\frac{C^{\mathrm{Work}}_{ig}+C^{\mathrm{Non-Work}}_{ig}}{2}, $$
 
@@ -215,7 +216,8 @@ where \(C^{\mathrm{Work}}_{ig}\) and \(C^{\mathrm{Non-Work}}_{ig}\) denote workp
 respondent \(i\) and migrant group \(g\), where \(g \in \{\text{Ukrainian, Syrian}\}\). Higher values indicate 
 more frequent overall contact with the respective group. If a person is retired, unemployed, a student, or not currently 
 working, they would answer that workplace contact is not applicable for them and it would be marked as missing instead 
-of reporting it as never having contact with the migrant group in the workplace. 
+of reporting it as zero contact with the migrant group in the workplace. In this case, \(C_{ig}\) is based on 
+non-work contact only.
 
 This contact measure can be used in the specifications for H4–H6, because these hypotheses concern respondents' 
 overall contact experiences with the migrant group. Additionally, the two contact types can be analyzed separately 

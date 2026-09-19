@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.3}Outcome Variables}{10}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Respondent Questionnaire}{11}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Personal Contact and Experience.}{11}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Media Exposure and Information.}{12}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}Media Exposure and Information.}{13}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}General Beliefs About Integration.}{13}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Respondent Controls.}{15}{subsubsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.5}Data Quality and Processing.}{15}{subsection.3.5}%

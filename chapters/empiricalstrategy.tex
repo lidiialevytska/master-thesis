@@ -49,13 +49,14 @@ Y_{ij}^{k}
 \end{equation}
 The coefficients \(\beta_1^k\) to \(\beta_5^k\) capture the average causal effects of the respective randomized vignette 
 characteristics on outcome \(k\), relative to their reference categories and averaging over the randomized values of 
-the remaining profile characteristics. The baseline specifications are estimated using linear regression, and the 
-interpretation of the coefficients depends on the respective outcome measure. For the employment outcome, which is 
+the remaining profile characteristics. The baseline specifications are estimated using OLS, and the interpretation of 
+the coefficients depends on the respective outcome measure. For the employment outcome, which is 
 measured on a 0–100 probability scale, coefficients are expressed in percentage points. For the income outcome, the 
 seven ordered categories are coded from 1 to 7, so coefficients are expressed in income-category points rather than as 
 specific differences in euros. For the remaining outcomes, which are measured on seven-point response scales, 
 coefficients are expressed in scale points. Since the ordinal response categories cannot necessarily be assumed to 
-be equally spaced, ordered logit models are additionally estimated as robustness checks.
+be equally spaced, ordered logit models are additionally estimated as robustness checks to examine whether the 
+conclusions are sensitive to treating these categories as approximately equally spaced in the OLS specifications.
 The term \(\varepsilon_{ij}^{k}\) denotes the error term and captures variation in respondent \(i\)'s evaluation of 
 profile \(j\) for outcome \(k\) that is not explained by the variables included in the regression.\bigskip
 
@@ -96,7 +97,7 @@ Right_i
 \]
 The inclusion of \(X_i\) does not provide the source of identification for the randomized vignette effects, but this
 adjusted specification can be used to assess the robustness and potentially improve the precision of the experimental 
-estimates. The construction and use of the respondent-level controls are discussed further in Section 4.4.\bigskip
+estimates.\bigskip
 
 \noindent\textbf{Standard errors.} Since each respondent evaluates multiple vignette profiles, observations belonging to the same respondent cannot be 
 treated as statistically independent. Standard errors are therefore clustered at the respondent level in all 
@@ -112,9 +113,11 @@ uncertainty around the estimate. The estimated effect is reported and interprete
 example, if the results differ between employment and income, this difference is reported explicitly rather than 
 combining the outcomes into a single measure of support for the hypothesis. Whether the results provide support for 
 the respective hypothesis is determined from the pattern of the estimates, considering their predicted 
-direction, magnitude, and statistical uncertainty. This avoids imposing a strict rule for hypothesis support before the empirical results are observed.
-Since testing multiple outcomes also raises a multiple-testing concern, this is accounted for in the statistical 
-inference, which will further be discussed in Section 4.4. 
+direction, magnitude, and statistical uncertainty. This avoids imposing a strict rule for hypothesis support before 
+the empirical results are observed.
+Since hypotheses are examined across multiple outcomes, the analysis also accounts for multiple testing. For the main 
+hypothesis tests, \(p\)-values are adjusted using the Holm procedure within the respective pre-specified hypothesis 
+families, while unadjusted estimates and 95\% confidence intervals are reported alongside the adjusted inference. 
 Equation (2), which additionally includes respondent-level controls, is estimated as a robustness check.\bigskip
 
 \noindent\textbf{Testing H1a.} H1a predicts that migrants with higher human capital are expected to achieve more 
@@ -208,15 +211,15 @@ negative. This analysis is treated as supporting rather than as a separate hypot
 
 \subsection{Associational Analysis: Contact, Experience, Media, and Memory}
 
-Section 4.2 examines H4–H6, which concern the relationship between respondents’ personal contact, 
+This section examines H4–H6, which concern the relationship between respondents’ personal contact, 
 media exposure, most memorable experiences and information and their beliefs about migrant integration. 
 Unlike the vignette characteristics analyzed in Section 4.1, these respondent-level measures are not randomly 
 assigned. The corresponding coefficients are therefore interpreted as conditional associations rather than 
-causal effects. The analysis controls for relevant observed characteristics and, where appropriate, exploits 
-within-respondent differences between experiences with Ukrainian and Syrian migrants. These specifications can 
+causal effects. The analysis controls for relevant observed characteristics. These specifications can 
 reduce some sources of confounding but cannot rule out selection, reverse causality, or unobserved factors that 
-may jointly influence respondents’ experiences, information exposure, and beliefs. These limitations are considered 
-further in Section 4.4. 
+may jointly influence respondents' experiences, information exposure, and beliefs. These identification limitations 
+and possible approaches for addressing them in future research are discussed further in Section 5. As in the 
+experimental analysis, standard errors are clustered at the respondent level to account for repeated vignette evaluations.
 
 \subsubsection{Contact and Experience: H4a–H4b}
 
@@ -393,7 +396,6 @@ As an additional exploratory analysis, the specifications used to examine H4--H6
 discrimination outcomes, \(Y_{ij}^{\mathrm{Hire}}\) and \(Y_{ij}^{\mathrm{Work}}\). While H4--H6 focus on beliefs 
 about integration outcomes, this extension examines whether respondents' contact experiences and media 
 information are also associated with beliefs about the discrimination faced by the respective migrant group. 
-The results are interpreted as exploratory associations.
 
 \subsection{General Beliefs and Exploratory Analyses}
 
@@ -467,7 +469,7 @@ Y_{ij}^{k}
 +
 \boldsymbol{\beta}^{k\prime}Z_j
 +
-\lambda_{LM}^{k}TimeLM_i
+\lambda_{TimeLM}^{k}TimeLM_i
 +
 \boldsymbol{\delta}^{k\prime}X_i
 +
@@ -475,7 +477,7 @@ Y_{ij}^{k}
 \qquad
 k\in\{\mathrm{Emp},\mathrm{Inc}\}.
 \end{equation}
-The coefficient \(\lambda_{LM}^{k}\) captures the conditional association between stronger beliefs that migrants' 
+The coefficient \(\lambda_{TimeLM}^{k}\) captures the conditional association between stronger beliefs that migrants' 
 labor-market integration improves with time and respondents' beliefs about the respective outcome. 
 The corresponding relationship for social integration is estimated as
 \begin{equation}
@@ -485,13 +487,13 @@ Y_{ij}^{\mathrm{Soc}}
 +
 \boldsymbol{\beta}^{\mathrm{Soc}\prime}Z_j
 +
-\lambda_{Soc}TimeSoc_i
+\lambda_{TimeSoc}^{\mathrm{Soc}}TimeSoc_i
 +
 \boldsymbol{\delta}^{\mathrm{Soc}\prime}X_i
 +
 \varepsilon_{ij}^{\mathrm{Soc}}.
 \end{equation}
-Here, \(\lambda_{Soc}\) captures the conditional association between stronger beliefs that migrants become more socially 
+Here, \(\lambda_{TimeSoc}^{\mathrm{Soc}}\) captures the conditional association between stronger beliefs that migrants become more socially 
 integrated with time and respondents' beliefs about the social integration of the vignette profile.
 
 These specifications provide an exploratory test of whether the two types of beliefs are systematically related.
@@ -501,49 +503,9 @@ does not specify how long the migrant has already lived in Germany, respondents 
 newly arrived, in which case their general beliefs about integration over time may be less directly reflected in their
 evaluation of the profile.
 
-\subsection{Robustness, Data Treatment, and Interpretation}
-
-\noindent\textbf{Statistical inference and multiple testing.}
-Since each respondent evaluates several vignette profiles, standard errors are
-clustered at the respondent level throughout the analysis. Estimated
-coefficients are reported together with 95\% confidence intervals. Several of
-the hypotheses are examined across more than one outcome, which creates a
-multiple-testing concern. To account for this, the main hypothesis tests are
-additionally evaluated using Holm-adjusted $p$-values within the respective
-pre-specified hypothesis families. Unadjusted estimates and confidence
-intervals are reported alongside the adjusted inference so that the direction,
-magnitude, and uncertainty of the estimated relationships remain transparent.
-
-\noindent\textbf{Robustness.}
-The main experimental specifications are estimated using linear regression,
-with the specifications including respondent-level controls serving as an
-adjusted robustness analysis. For the ordinal income, discrimination, and
-social-integration outcomes, ordered logit models are additionally estimated
-to examine whether the conclusions are sensitive to treating the ordered
-response categories as approximately equally spaced in the linear
-specifications. For the associational analyses in Sections 4.2 and 4.3,
-robustness analyses may additionally use respondent fixed effects where the
-relevant variables vary within respondents across the Ukrainian and Syrian
-groups. These specifications account for respondent characteristics that are
-constant across the two groups, although they do not eliminate potential
-confounding arising from group-specific experiences or beliefs.
-
-\noindent\textbf{Data treatment.}
-Data-quality procedures follow the approach described in Section 3.5.
-Responses are assessed using the pre-specified attention check, survey
-completion times, and available indicators of duplicate or automated
-responding. The precise thresholds used to flag potentially low-quality
-responses are determined following the pilot study and prior to the main
-analysis. The main results are additionally compared with results obtained
-when respondents flagged for potential low-quality responding are retained.
-
-Missing and not-applicable responses are distinguished from indicators of
-low-quality responding and are treated according to the construction of the
-respective variable. In particular, measures that are only observed following
-a preceding response, such as the valence of a memorable personal experience
-or memorable media information, are analyzed only when the corresponding
-measure is observed rather than assigning an artificial value to structurally
-missing responses. The construction and treatment of derived variables and
-missing responses are documented consistently before the main analysis.
-
-\noindent\textbf{Interpretation and limitations.} The interpretation of the results reflects the distinction between the experimental and associational parts of the empirical strategy. Random assignment of the vignette characteristics allows their estimated coefficients to be interpreted as causal effects of the presented profile characteristics on respondents' stated beliefs. By contrast, respondents' contact, experiences, media exposure, memorable information, and broader integration beliefs are not randomly assigned. Relationships involving these measures are therefore interpreted as conditional associations rather than causal effects. Moreover, some of these measures may be related to one another, such as overall and memorable experience valence, overall and memorable media valence, or the different community-belief measures. Their coefficients are therefore not interpreted as identifying independent causal mechanisms, but as providing complementary information that may help interpret patterns in respondents' beliefs. The corresponding limitations and possible extensions are discussed in Section 5.
+Finally, the five general-belief measures examined in this section may themselves be related. For example, beliefs 
+about how well established migrant communities are may be associated with beliefs about whether these communities 
+facilitate employment or reduce interaction with Germans, and may also be related to respondents' more general beliefs 
+about how integration develops over time. Examining these relationships may therefore provide additional information 
+about how different beliefs about migrant integration are connected. Possible approaches for examining them more 
+explicitly are discussed further in Section 5.

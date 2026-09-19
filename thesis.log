@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  19 SEP 2026 02:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  19 SEP 2026 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,33 +484,31 @@ Overfull \hbox (1.95927pt too wide) in paragraph at lines 103--104
 
 [23]
 
-[24]
+[24]) (./chapters/limitations.tex
 
-[25]) (./chapters/limitations.tex) (./chapters/conclusion.tex)
+[25]) (./chapters/conclusion.tex)
 
-[26]
+[26] (./thesis.bbl
 
-[27] (./thesis.bbl
-
-[28
+[27
 
 ]
+
+[28]
 
 [29]
 
 [30]
 
-[31]
+[31])
 
-[32])
+[32] (./appendix/appendix.tex)
 
-[33] (./appendix/appendix.tex)
-
-[34
+[33
 
 ] (./declaration.tex)
 
-[35
+[34
 
 ] (./thesis.aux)
  ***********
@@ -518,21 +516,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 80502DC88DC7A99123FE165971B8FB51;7860.
+(rerunfilecheck)             Checksum: 0AD16BE176BFA2116E2E4CD11BC05A33;7560.
  ) 
 Here is how much of TeX's memory you used:
- 12971 strings out of 473190
- 205497 string characters out of 5715800
+ 12968 strings out of 473190
+ 205460 string characters out of 5715800
  608080 words of memory out of 5000000
- 35889 multiletter control sequences out of 15000+600000
+ 35888 multiletter control sequences out of 15000+600000
  568155 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,18n,82p,1229b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,18n,82p,503b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (37 pages, 262058 bytes).
+Output written on thesis.pdf (36 pages, 259568 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
- 639 compressed objects within 7 object streams
- 151 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

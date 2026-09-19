@@ -342,7 +342,8 @@ associated with more favorable beliefs:
 with a migrant group is associated with beliefs, conditional on contact frequency and overall contact quality. 
 The valence of the most memorable experience, \(V_{ig}^{\mathrm{E}}\), is observed only when the respondent reports 
 that such an experience comes to mind (\(E_{ig}=1\)). The following specification is therefore estimated only for the 
-observations satisfying \(E_{i,g(j)}=1\):
+observations satisfying \(E_{i,g(j)}=1\), and for each of the three integration outcomes, 
+\(k\in\{\mathrm{Emp},\mathrm{Inc},\mathrm{Soc}\}\):
 \begin{equation}
 Y_{ij}^{k}
 =
@@ -360,7 +361,8 @@ The direction, magnitude, and statistical uncertainty of \(\gamma_E^{k}\) are re
 
 \noindent\textbf{Testing H6b.} H6b examines the corresponding relationship for respondents' most memorable media 
 information. Similarly, \(V_{ig}^{\mathrm{I}}\) is observed only when the respondent reports that a particularly 
-memorable piece of media information exists, \(I_{ig}=1\). Then, the following specification is estimated:
+memorable piece of media information exists, \(I_{ig}=1\). Then, the following specification is estimated for each 
+of the three integration outcomes, \(k\in\{\mathrm{Emp},\mathrm{Inc},\mathrm{Soc}\}\):
 \begin{equation}
 Y_{ij}^{k}
 =
@@ -395,32 +397,153 @@ The results are interpreted as exploratory associations.
 
 \subsection{General Beliefs and Exploratory Analyses}
 
+The measures of respondents' more general beliefs introduced in Section 3.4.3 are analyzed 
+exploratorily and provide complementary evidence on how respondents perceive differences between the two migrant groups.
+
+Let \(B_{ig}\) denote one of 
+the three group-specific belief measures which are are collected separately for Ukrainian and Syrian migrants,
+\[
+B_{ig}
+\in
+\left\{
+Comm_{ig},\,
+FacilEmp_{ig},\,
+RedInt_{ig}
+\right\}.
+\]
+The following specification is estimated separately for each measure:
+\begin{equation}
+B_{ig}
+=
+\alpha_i
++
+\theta Ukr_g
++
+\varepsilon_{ig},
+\end{equation}
+where \(Ukr_g=1\) when the evaluated group is Ukrainian and \(Ukr_g=0\) when it is Syrian. The respondent fixed effect, 
+\(\alpha_i\), accounts for all characteristics that are constant within respondent across the two group evaluations. 
+The coefficient of interest, \(\theta\), therefore captures the average within-respondent difference between beliefs 
+about Ukrainian and Syrian migrants for the respective measure. \(\theta>0\) indicates a higher value for Ukrainian 
+than for Syrian migrants, while \(\theta<0\) indicates a higher value for Syrian than for Ukrainian migrants.
+The coefficient is interpreted as a difference in reported beliefs rather than as a causal effect of country of origin.
+
+I next examine whether these group-specific general beliefs are associated with respondents' evaluations of the vignette 
+profiles. As in Section 4.2, each belief measure is matched to the country of origin presented in vignette \(j\).
+The following specification is estimated for each of the three integration outcomes, 
+\(k\in\{\mathrm{Emp},\mathrm{Inc},\mathrm{Soc}\}\):
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++
+\boldsymbol{\beta}^{k\prime}Z_j
++
+\lambda_{B}^{k}B_{i,g(j)}
++
+\boldsymbol{\delta}^{k\prime}X_i
++
+\varepsilon_{ij}^{k}.
+\end{equation}
+The coefficient of interest, \(\lambda_{B}^{k}\), captures the conditional association between the respective 
+group-specific general belief and \(Y_{ij}^{k}\), holding the other independent variables constant. The specification 
+is estimated separately for the three belief measures. For \(Comm_{i,g(j)}\), \(\lambda_{B}^{k}\) indicates how beliefs
+about how well established the respective migrant community is are associated with the vignette outcome. 
+For \(FacilEmp_{i,g(j)}\), it captures the association with beliefs that the respective community facilitates employment,
+and for \(RedInt_{i,g(j)}\), it captures the association with beliefs that reliance on the respective community reduces 
+interaction with Germans.
+
+These exploratory analyses can help examine how respondents' broader beliefs about migrant communities are associated 
+with their beliefs about migrants' integration outcomes and may thereby provide additional information for 
+interpreting the mechanisms underlying these beliefs.
+
+The variables \(TimeLM_i\) and \(TimeSoc_i\) capture a different dimension of respondents’ general integration beliefs. 
+They measure general beliefs about whether migrants become better integrated with time spent in Germany.
+\(TimeLM_i\) is related to the employment and income outcomes using the following specification:
+\begin{equation}
+Y_{ij}^{k}
+=
+\alpha^{k}
++
+\boldsymbol{\beta}^{k\prime}Z_j
++
+\lambda_{LM}^{k}TimeLM_i
++
+\boldsymbol{\delta}^{k\prime}X_i
++
+\varepsilon_{ij}^{k},
+\qquad
+k\in\{\mathrm{Emp},\mathrm{Inc}\}.
+\end{equation}
+The coefficient \(\lambda_{LM}^{k}\) captures the conditional association between stronger beliefs that migrants' 
+labor-market integration improves with time and respondents' beliefs about the respective outcome. 
+The corresponding relationship for social integration is estimated as
+\begin{equation}
+Y_{ij}^{\mathrm{Soc}}
+=
+\alpha^{\mathrm{Soc}}
++
+\boldsymbol{\beta}^{\mathrm{Soc}\prime}Z_j
++
+\lambda_{Soc}TimeSoc_i
++
+\boldsymbol{\delta}^{\mathrm{Soc}\prime}X_i
++
+\varepsilon_{ij}^{\mathrm{Soc}}.
+\end{equation}
+Here, \(\lambda_{Soc}\) captures the conditional association between stronger beliefs that migrants become more socially 
+integrated with time and respondents' beliefs about the social integration of the vignette profile.
+
+These specifications provide an exploratory test of whether the two types of beliefs are systematically related.
+For instance, respondents who more strongly believe that migrants become better integrated with time may also report 
+more favorable beliefs about their future labor-market or social integration outcomes. However, because the vignette 
+does not specify how long the migrant has already lived in Germany, respondents may perceive the migrant as relatively 
+newly arrived, in which case their general beliefs about integration over time may be less directly reflected in their
+evaluation of the profile.
+
 \subsection{Robustness, Data Treatment, and Interpretation}
 
-explain the robustness of 1-7 and the hypothesis outcomes/decisions 
-multiple testing problem
+\noindent\textbf{Statistical inference and multiple testing.}
+Since each respondent evaluates several vignette profiles, standard errors are
+clustered at the respondent level throughout the analysis. Estimated
+coefficients are reported together with 95\% confidence intervals. Several of
+the hypotheses are examined across more than one outcome, which creates a
+multiple-testing concern. To account for this, the main hypothesis tests are
+additionally evaluated using Holm-adjusted $p$-values within the respective
+pre-specified hypothesis families. Unadjusted estimates and confidence
+intervals are reported alongside the adjusted inference so that the direction,
+magnitude, and uncertainty of the estimated relationships remain transparent.
 
-Citing measurement sources for the respondent questionnaire:
-$C_{ig}^{Work}$ workplace contact frequency, 
-$C_{ig}^{Social}$ social contact frequency,
-$Q_{ig}$ contact quality.
+\noindent\textbf{Robustness.}
+The main experimental specifications are estimated using linear regression,
+with the specifications including respondent-level controls serving as an
+adjusted robustness analysis. For the ordinal income, discrimination, and
+social-integration outcomes, ordered logit models are additionally estimated
+to examine whether the conclusions are sensitive to treating the ordered
+response categories as approximately equally spaced in the linear
+specifications. For the associational analyses in Sections 4.2 and 4.3,
+robustness analyses may additionally use respondent fixed effects where the
+relevant variables vary within respondents across the Ukrainian and Syrian
+groups. These specifications account for respondent characteristics that are
+constant across the two groups, although they do not eliminate potential
+confounding arising from group-specific experiences or beliefs.
 
-Beliefs about large communities and network effects:
+\noindent\textbf{Data treatment.}
+Data-quality procedures follow the approach described in Section 3.5.
+Responses are assessed using the pre-specified attention check, survey
+completion times, and available indicators of duplicate or automated
+responding. The precise thresholds used to flag potentially low-quality
+responses are determined following the pilot study and prior to the main
+analysis. The main results are additionally compared with results obtained
+when respondents flagged for potential low-quality responding are retained.
 
-Large community
-$\rightarrow$
-More information/referrals
-$\rightarrow$
-Better employment
+Missing and not-applicable responses are distinguished from indicators of
+low-quality responding and are treated according to the construction of the
+respective variable. In particular, measures that are only observed following
+a preceding response, such as the valence of a memorable personal experience
+or memorable media information, are analyzed only when the corresponding
+measure is observed rather than assigning an artificial value to structurally
+missing responses. The construction and treatment of derived variables and
+missing responses are documented consistently before the main analysis.
 
-versus 
-
-Large community
-$\rightarrow$
-Less native interaction
-$\rightarrow$
-Slower integration.
-
-Construct:
-
-$\Delta B_i^{\mathrm{Network}} = B_{i,\mathrm{S}}^{\mathrm{Network}} - B_{i,\mathrm{U}}^{\mathrm{Network}}$
+\noindent\textbf{Interpretation and limitations.} The interpretation of the results reflects the distinction between the experimental and associational parts of the empirical strategy. Random assignment of the vignette characteristics allows their estimated coefficients to be interpreted as causal effects of the presented profile characteristics on respondents' stated beliefs. By contrast, respondents' contact, experiences, media exposure, memorable information, and broader integration beliefs are not randomly assigned. Relationships involving these measures are therefore interpreted as conditional associations rather than causal effects. Moreover, some of these measures may be related to one another, such as overall and memorable experience valence, overall and memorable media valence, or the different community-belief measures. Their coefficients are therefore not interpreted as identifying independent causal mechanisms, but as providing complementary information that may help interpret patterns in respondents' beliefs. The corresponding limitations and possible extensions are discussed in Section 5.

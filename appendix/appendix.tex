@@ -1,8 +1,230 @@
-\section{Appendix A: Proposed Survey Instrument}
+\section{Appendix Survey Instrument}
 
 what to add here: vignette instructions, exact vignette template, all six outcome questions with every response option, 
 contact/experience questions, media questions, general-belief questions, demographics, and attention checks.
 
 Should I also make a survey in Qualtrics and include a link to it here? Or add screenshots of the survey questions
 which I create in Qualtrics?
+
+This should probably be the largest appendix and contain the material that allows someone to understand exactly what respondents would see.
+
+\subsection{Vignette experiment and profile construction}
+
+Include the vignette introduction/instructions, the exact vignette template, and the five randomized attributes and their levels. You can then show perhaps 2–4 example profiles, rather than screenshots of all 32 possible profiles.
+
+This is also the natural place for the Qualtrics screenshots you wanted to include.
+
+\subsection{Outcome questions and response scales}
+
+Put the exact wording of all five outcome questions here:
+
+\(Y^{\mathrm{Emp}}\), \(Y^{\mathrm{Inc}}\), \(Y^{\mathrm{Hire}}\), \(Y^{\mathrm{Work}}\), and \(Y^{\mathrm{Soc}}\).
+
+This directly fulfils the Appendix [X] promise currently made in Section 3.3.
+
+For each question, show the exact response scale/categories. In particular, list all seven income categories rather than merely saying “seven categories.”
+
+\subsection{Personal contact and experience questions}
+
+Include exact wording and response scales for workplace contact, non-work contact, overall experience quality, whether a memorable experience comes to mind, and memorable-experience valence.
+
+This fulfils your current Appendix [X] reference in Section 3.4.1.
+
+\subsection{Media exposure and information questions}
+
+Even though I don't see a separate Appendix [X] reference attached to this subsection in the current PDF, I would absolutely include it. Otherwise the appendix would give exact wording for contact but strangely omit the parallel media measures.
+
+Include \(M_{ig}\), \(T_{ig}\), \(I_{ig}\), and \(V_{ig}^{\mathrm I}\), including the relevant skip logic.
+
+\subsection{General-belief questions}
+
+Include exact wording/scales for all five:
+
+$$ TimeLM_i,\quad TimeSoc_i,\quad Comm_{ig},\quad FacilEmp_{ig},\quad RedInt_{ig}. $$
+
+Again, this makes the questionnaire reproducible even though your current text does not explicitly send every one of these questions to Appendix [X].
+
+\subsection{Respondent characteristics}
+
+Include the exact wording, response categories, and coding of age, gender, education, employment status, household income, region, migration background, religion, and political orientation. This directly fulfils your Section 3.4.4 promise.
+
+\section{Appendix Data Processing}
+
+\subsection{Data-quality procedures}
+
+Briefly operationalize what Section 3.5 already explains: attention check, completion time, duplicate/automated-response indicators where available, and the rule that indicators are considered together rather than automatically excluding someone based on one flag.
+
+Because your thesis already explains this in prose, do not repeat several paragraphs. A concise table will be enough.
+
+\subsection{Missing, not-applicable, and structurally unavailable responses}
+
+This is where I would put the table we have been discussing.
+
+A preliminary version could be:
+
+\begin{table}[htbp]
+\centering
+\caption{Treatment of Missing, Not-Applicable, and Conditional Responses}
+\label{tab:missing_responses}
+\small
+\begin{tabularx}{\textwidth}{
+    >{\raggedright\arraybackslash}p{3.2cm}
+    >{\raggedright\arraybackslash}p{2.5cm}
+    >{\raggedright\arraybackslash}X
+    >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Situation} &
+\textbf{Classification} &
+\textbf{Coding and treatment} &
+\textbf{Consequence for analysis} \\
+\midrule
+
+No memorable personal experience comes to mind
+($E_{ig}=0$)
+&
+Structurally unavailable
+&
+$V_{ig}^{\mathrm{E}}$ is missing because the valence question is not displayed.
+&
+The respondent remains in other analyses. The observation is not used in the H6a specification requiring $V_{ig}^{\mathrm{E}}$.
+\\
+\addlinespace
+
+No memorable media information comes to mind
+($I_{ig}=0$)
+&
+Structurally unavailable
+&
+$V_{ig}^{\mathrm{I}}$ is missing because the valence question is not displayed.
+&
+The respondent remains in other analyses. The observation is not used in the H6b specification requiring $V_{ig}^{\mathrm{I}}$.
+\\
+\addlinespace
+
+Respondent has not worked during the relevant period
+&
+Not applicable
+&
+$C_{ig}^{\mathrm{Work}}$ is coded as missing rather than as no workplace contact. The overall contact measure $C_{ig}$ is based on $C_{ig}^{\mathrm{NonWork}}$ only.
+&
+The respondent remains in the analysis. The unavailable workplace-contact measure does not result in respondent-level exclusion.
+\\
+\addlinespace
+
+Respondent has worked but reports ``never'' having workplace contact with migrant group $g$
+&
+Valid substantive response
+&
+$C_{ig}^{\mathrm{Work}}=1$, corresponding to ``never'' on the contact-frequency scale.
+&
+The response is included normally in the construction of $C_{ig}$ and is not treated as missing.
+\\
+\addlinespace
+
+Respondent selects ``Prefer not to say'' for a displayed question
+&
+Explicit nonresponse option
+&
+The response is recorded as ``Prefer not to say'' and coded as missing for the corresponding variable in the analysis.
+&
+The respondent remains in analyses that do not require the respective variable. The observation is unavailable for specifications requiring that variable.
+\\
+
+\bottomrule
+\end{tabularx}
+
+\begin{minipage}{\textwidth}
+\vspace{0.5em}
+\footnotesize
+\textit{Notes:} All survey questions displayed to respondents require a response before they can proceed. Where appropriate, particularly for sensitive respondent characteristics, respondents can select ``Prefer not to say.'' Missing values therefore arise from explicit nonresponse options, questions that are not applicable, or questions that are not displayed because of conditional survey logic, rather than from respondents skipping displayed questions.
+\end{minipage}
+\end{table}
+
+\subsection{Construction of derived variables}
+
+This should contain the operational rules for variables that are not simply raw survey answers.
+
+Most importantly, spell out \(C_{ig}\):
+
+$$ C_{ig}= \frac{C_{ig}^{\mathrm{Work}}+C_{ig}^{\mathrm{NonWork}}}{2} $$
+
+when both measures are available, whereas
+
+$$ C_{ig}=C_{ig}^{\mathrm{NonWork}} $$
+
+when workplace contact is genuinely not applicable. That is already the rule in your main text.
+
+Also include the construction of
+
+$$ Positive_{ig}=\max(Q_{ig}-4,0) $$
+
+and
+
+$$ Negative_{ig}=\max(4-Q_{ig},0), $$
+
+and any other transformations/codings that are not immediately obvious from the raw questionnaire.
+
+\subsection{Analysis-sample availability}
+
+This can be very short, perhaps even another small table rather than prose. It would connect the missing-data rules to your empirical strategy:
+
+\begin{table}[htbp]
+\centering
+\caption{Data Requirements for the Main Analyses}
+\label{tab:analysis_sample}
+\small
+\begin{tabularx}{\textwidth}{
+    >{\raggedright\arraybackslash}p{3.5cm}
+    >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Analysis} & \textbf{Additional data required} \\
+\midrule
+
+H1--H3
+&
+Valid vignette outcome
+\\
+\addlinespace
+
+H4a--H4b
+&
+Relevant contact and experience measures
+\\
+\addlinespace
+
+H5
+&
+Relevant media exposure and media-tone measures
+\\
+\addlinespace
+
+H6a
+&
+$E_{ig}=1$ and observed $V_{ig}^{\mathrm{E}}$
+\\
+\addlinespace
+
+H6b
+&
+$I_{ig}=1$ and observed $V_{ig}^{\mathrm{I}}$
+\\
+\addlinespace
+
+Adjusted specifications
+&
+Required respondent-level control variables
+\\
+
+\bottomrule
+\end{tabularx}
+
+\begin{minipage}{\textwidth}
+\vspace{0.5em}
+\footnotesize
+\textit{Notes:} The number of observations used in each specification may differ 
+depending on the availability of the variables required for the respective analysis. 
+Missing information for a variable not required by a particular specification does 
+not by itself result in respondent-level exclusion.
+\end{minipage}
+\end{table}
 

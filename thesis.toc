@@ -26,16 +26,16 @@
 \contentsline {subsection}{\numberline {4.3}General Beliefs and Exploratory Analyses}{24}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Limitations and Extensions}{26}{section.5}%
 \contentsline {section}{\numberline {6}Conclusion}{28}{section.6}%
-\contentsline {section}{References}{29}{section.6}%
-\contentsline {section}{\numberline {A}Appendix Survey Instrument}{35}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Vignette experiment and profile construction}{35}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Outcome questions and response scales}{35}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Personal contact and experience questions}{35}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Media exposure and information questions}{35}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}General-belief questions}{35}{subsection.A.5}%
-\contentsline {subsection}{\numberline {A.6}Respondent characteristics}{36}{subsection.A.6}%
-\contentsline {section}{\numberline {B}Appendix Data Processing}{36}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Data-quality procedures}{36}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Missing, not-applicable, and structurally unavailable responses}{36}{subsection.B.2}%
-\contentsline {subsection}{\numberline {B.3}Construction of derived variables}{36}{subsection.B.3}%
-\contentsline {subsection}{\numberline {B.4}Analysis-sample availability}{38}{subsection.B.4}%
+\contentsline {section}{References}{30}{section.6}%
+\contentsline {section}{\numberline {A}Appendix Survey Instrument}{36}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Vignette experiment and profile construction}{36}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Outcome questions and response scales}{36}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Personal contact and experience questions}{36}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Media exposure and information questions}{36}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}General-belief questions}{36}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Respondent characteristics}{37}{subsection.A.6}%
+\contentsline {section}{\numberline {B}Appendix Data Processing}{37}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Data-quality procedures}{37}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Missing, not-applicable, and structurally unavailable responses}{37}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Construction of derived variables}{37}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}Analysis-sample availability}{39}{subsection.B.4}%

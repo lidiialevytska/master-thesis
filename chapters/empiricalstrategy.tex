@@ -102,7 +102,15 @@ estimates.\bigskip
 \noindent\textbf{Standard errors.} Since each respondent evaluates multiple vignette profiles, observations belonging to the same respondent cannot be 
 treated as statistically independent. Standard errors are therefore clustered at the respondent level in all 
 vignette-level specifications, allowing the regression residuals to be correlated across the profiles evaluated by the 
-same respondent. This accounts for the repeated-evaluation structure of the proposed experiment.
+same respondent. This accounts for the repeated-evaluation structure of the proposed experiment.\bigskip
+
+\noindent\textbf{Multiple testing.} Since several hypotheses are examined across multiple outcomes, the analysis 
+accounts for multiple testing using the Holm procedure. The adjustment is conducted separately within each pre-specified 
+hypothesis family. For H1a and H2, the respective families include the employment and income outcomes; 
+for H1b and H3a, employment, income, and social integration; for H3b, hiring and workplace discrimination; 
+and for H3c, all five outcomes. For the associational hypotheses H4a, H4b, H5, H6a, and H6b, the respective 
+families include employment, income, and social integration. Unadjusted estimates and 95\% confidence intervals 
+are reported alongside the Holm-adjusted \(p\)-values.
 
 \subsubsection{Main Effects: H1a, H1b, H2, H3a, and H3b}
 
@@ -114,11 +122,8 @@ example, if the results differ between employment and income, this difference is
 combining the outcomes into a single measure of support for the hypothesis. Whether the results provide support for 
 the respective hypothesis is determined from the pattern of the estimates, considering their predicted 
 direction, magnitude, and statistical uncertainty. This avoids imposing a strict rule for hypothesis support before 
-the empirical results are observed.
-Since hypotheses are examined across multiple outcomes, the analysis also accounts for multiple testing. For the main 
-hypothesis tests, \(p\)-values are adjusted using the Holm procedure within the respective pre-specified hypothesis 
-families, while unadjusted estimates and 95\% confidence intervals are reported alongside the adjusted inference. 
-Equation (2), which additionally includes respondent-level controls, is estimated as a robustness check.\bigskip
+the empirical results are observed. Equation (2), which additionally includes respondent-level controls, is estimated 
+as a robustness check.\bigskip
 
 \noindent\textbf{Testing H1a.} H1a predicts that migrants with higher human capital are expected to achieve more 
 favorable labor-market integration outcomes. Equation (1) is therefore estimated for the employment and income 

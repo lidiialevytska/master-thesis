@@ -201,7 +201,7 @@ to the vignettes. For questions that are asked separately for Ukrainian and Syri
 groups would be randomized where feasible. The exact wording of all survey questions and their corresponding response 
 options is provided in Appendix A.
 
-\subsubsection{Personal Contact and Experience.}
+\subsubsection{Personal Contact and Experience}
 
 \noindent\textbf{Contact frequency.} Respondents are asked separately about the frequency of workplace and non-work 
 contact with Ukrainian and Syrian migrants during the past 12 months. Non-work contact refers to interactions outside 
@@ -210,15 +210,13 @@ Both questions use the same seven-point frequency scale ranging from 1 (never) t
 For more details on the exact wording of the questions and response scales, see Appendix A.3.
 For each migrant group, the two measures are combined into an overall contact exposure measure \(C_{ig}\), which is 
 constructed as the mean of the available workplace and non-work contact measures:
-
 $$ C_{ig}=\frac{C^{\mathrm{Work}}_{ig}+C^{\mathrm{Non-Work}}_{ig}}{2}, $$
-
 where \(C^{\mathrm{Work}}_{ig}\) and \(C^{\mathrm{Non-Work}}_{ig}\) denote workplace and non-work contact, respectively, for 
 respondent \(i\) and migrant group \(g\), where \(g \in \{\text{Ukrainian, Syrian}\}\). Higher values indicate 
 more frequent overall contact with the respective group. If a person is retired, unemployed, a student, or not currently 
 working, they would answer that workplace contact is not applicable for them and it would be marked as missing instead 
-of reporting it as zero contact with the migrant group in the workplace. In this case, \(C_{ig}\) is based on 
-non-work contact only.
+of reporting it as zero contact with the migrant group in the workplace. In this case, overall contact is based on 
+non-work contact only, $$ C_{ig}=C_{ig}^{\mathrm{NonWork}}. $$
 
 This contact measure can be used in the specifications for H4–H6, because these hypotheses concern respondents' 
 overall contact experiences with the migrant group. Additionally, the two contact types can be analyzed separately 
@@ -233,9 +231,11 @@ conditional on respondents' overall contact exposure \(C_{ig}\).
 
 To examine whether negative experiences are more strongly associated with respondents' beliefs than positive experiences, 
 as proposed in H4b, the overall experience measure is additionally separated into positive and negative components:
-
-$$ Positive_{ig}=\max(Q_{ig}-4,0), $$ $$ Negative_{ig}=\max(4-Q_{ig},0). $$
-
+\[
+Positive_{ig}=\max(Q_{ig}-4,0)
+\quad \text{and} \quad
+Negative_{ig}=\max(4-Q_{ig},0),
+\]
 where \(Positive_{ig}\) captures the positivity of respondents' overall contact experiences and 
 \(Negative_{ig}\) captures the negativity of respondents' overall contact experiences. Both of them are designed to range 
 from 0 to 3 with higher values indicating more positive or negative experiences, respectively. Both take the value zero
@@ -252,7 +252,7 @@ most memorable experience is denoted by \(V_{ig}^{\mathrm{E}}\) and is used to e
 while controlling for overall contact frequency and quality. For respondents who report having had contact with a 
 migrant group but do not have a particular experience that comes to mind, \(V^{E}_{ig}\) is coded as missing.
 
-\subsubsection{Media Exposure and Information.}
+\subsubsection{Media Exposure and Information}
 
 \noindent\textbf{Media exposure.} Respondents are asked how often they come across information about Ukrainian and 
 Syrian migrants living in Germany through media channels such as television, newspapers, online news, social media, 
@@ -286,7 +286,7 @@ current subjective evaluations of the information that is most salient in memory
 This is relevant for the present thesis because the focus is on how respondents' own perceptions of certain experiences 
 and information are associated with their beliefs.
 
-\subsubsection{General Beliefs About Integration.}
+\subsubsection{General Beliefs About Integration}
 The questionnaire also includes some questions on more general group-level beliefs about the integration of Ukrainian and Syrian 
 migrants in Germany, capturing respondents' broader perceptions of the two migrant groups. These measures are not used 
 as primary outcomes for H1–H6. Instead, they can be used in descriptive and exploratory analyses that may help interpret 
@@ -331,14 +331,15 @@ Respondents are therefore asked whether they agree with the statement that being
 Ukrainian and Syrian communities reduces the need for newly arrived migrants to interact regularly with Germans. 
 Responses are recorded on a seven-point scale. The resulting measure is denoted by \(RedInt_{ig}\).
 
-\subsubsection{Respondent Controls.}
+\subsubsection{Respondent Controls}
+
 Lastly, the questionnaire collects respondent controls which are standard demographic and socioeconomic characteristics. These include 
 respondents' age, gender, education, employment status, household income, region of residence in Germany, migration 
 background, religious affiliation, and political orientation. These variables are used to describe 
 the sample and as control variables. The exact wording, response categories, and coding of these variables are provided 
 in Appendix A.6.
 
-\subsection{Data Quality and Processing.}
+\subsection{Data Quality and Processing}
 
 Insufficient attention and careless responding can reduce the quality of data collected through self-administered online 
 surveys, making procedures for identifying potentially low-quality responses important \citep{berinsky2014separating, curran2016methods}. 

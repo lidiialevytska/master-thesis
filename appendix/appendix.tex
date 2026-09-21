@@ -1,26 +1,14 @@
 \section{Appendix Survey Instrument}
 
-what to add here: vignette instructions, exact vignette template, all six outcome questions with every response option, 
-contact/experience questions, media questions, general-belief questions, demographics, and attention checks.
 
-Should I also make a survey in Qualtrics and include a link to it here? Or add screenshots of the survey questions
-which I create in Qualtrics?
-
-This should probably be the largest appendix and contain the material that allows someone to understand exactly what respondents would see.
 
 \subsection{Vignette experiment and profile construction}
 
-Include the vignette introduction/instructions, the exact vignette template, and the five randomized attributes and their levels. You can then show perhaps 2–4 example profiles, rather than screenshots of all 32 possible profiles.
-
-This is also the natural place for the Qualtrics screenshots you wanted to include.
+Include the vignette introduction/instructions, the exact vignette template, and the five randomized attributes and their levels. You can then show perhaps 2–4 example profiles.
 
 \subsection{Outcome questions and response scales}
 
 Put the exact wording of all five outcome questions here:
-
-\(Y^{\mathrm{Emp}}\), \(Y^{\mathrm{Inc}}\), \(Y^{\mathrm{Hire}}\), \(Y^{\mathrm{Work}}\), and \(Y^{\mathrm{Soc}}\).
-
-This directly fulfils the Appendix [X] promise currently made in Section 3.3.
 
 For each question, show the exact response scale/categories. In particular, list all seven income categories rather than merely saying “seven categories.”
 
@@ -28,11 +16,7 @@ For each question, show the exact response scale/categories. In particular, list
 
 Include exact wording and response scales for workplace contact, non-work contact, overall experience quality, whether a memorable experience comes to mind, and memorable-experience valence.
 
-This fulfils your current Appendix [X] reference in Section 3.4.1.
-
 \subsection{Media exposure and information questions}
-
-Even though I don't see a separate Appendix [X] reference attached to this subsection in the current PDF, I would absolutely include it. Otherwise the appendix would give exact wording for contact but strangely omit the parallel media measures.
 
 Include \(M_{ig}\), \(T_{ig}\), \(I_{ig}\), and \(V_{ig}^{\mathrm I}\), including the relevant skip logic.
 
@@ -42,19 +26,17 @@ Include exact wording/scales for all five:
 
 $$ TimeLM_i,\quad TimeSoc_i,\quad Comm_{ig},\quad FacilEmp_{ig},\quad RedInt_{ig}. $$
 
-Again, this makes the questionnaire reproducible even though your current text does not explicitly send every one of these questions to Appendix [X].
-
 \subsection{Respondent characteristics}
 
-Include the exact wording, response categories, and coding of age, gender, education, employment status, household income, region, migration background, religion, and political orientation. This directly fulfils your Section 3.4.4 promise.
+Include the exact wording, response categories, and coding of age, gender, education, employment status, household income, region, migration background, religion, and political orientation. 
 
 \section{Appendix Data Processing}
 
 \subsection{Data-quality procedures}
-
-Briefly operationalize what Section 3.5 already explains: attention check, completion time, duplicate/automated-response indicators where available, and the rule that indicators are considered together rather than automatically excluding someone based on one flag.
-
-Because your thesis already explains this in prose, do not repeat several paragraphs. A concise table will be enough.
+Is this section very relevant? or something that doesn't exist in the main thesis is the explanations or elaborations 
+of what is considered good quality and bad quality data and why. And why are we using these quality procedures. But do
+not repeat things that are already explained and mentioned in the main thesis. Only if there anything to add on top. 
+If not, we can only keep the table that is in the next section. 
 
 \subsection{Missing, not-applicable, and structurally unavailable responses}
 
@@ -140,33 +122,15 @@ The respondent remains in analyses that do not require the respective variable. 
 \end{minipage}
 \end{table}
 
+I like the table but my problem with it is that it is not shown in the right position in this section in the pdf when 
+I save and generate the thesis pdf. How can I make it positioned exactly where I want it to show so that is doesn't shift
+anywhere else unto other pages in Latex?
+
 \subsection{Construction of derived variables}
 
-This should contain the operational rules for variables that are not simply raw survey answers.
-
-Most importantly, spell out \(C_{ig}\):
-
-$$ C_{ig}= \frac{C_{ig}^{\mathrm{Work}}+C_{ig}^{\mathrm{NonWork}}}{2} $$
-
-when both measures are available, whereas
-
-$$ C_{ig}=C_{ig}^{\mathrm{NonWork}} $$
-
-when workplace contact is genuinely not applicable. That is already the rule in your main text.
-
-Also include the construction of
-
-$$ Positive_{ig}=\max(Q_{ig}-4,0) $$
-
-and
-
-$$ Negative_{ig}=\max(4-Q_{ig},0), $$
-
-and any other transformations/codings that are not immediately obvious from the raw questionnaire.
+I don't think I need this part anymore because I already have all of the construction of variables in the thesis?
 
 \subsection{Analysis-sample availability}
-
-This can be very short, perhaps even another small table rather than prose. It would connect the missing-data rules to your empirical strategy:
 
 \begin{table}[htbp]
 \centering
@@ -228,3 +192,9 @@ not by itself result in respondent-level exclusion.
 \end{minipage}
 \end{table}
 
+And finally, all the tables please make sure that are constructed according to the official thesis quidelines and bonn
+university github template codes in Latex that I shared. 
+
+In the very end, please help me by scanning the whole thesis again and fix any mistakes that you see. 
+Also please give me recommendations on how to perfect overall coherence, writing polish, literature positioning, 
+and whether there are any inconsistencies left across sections.

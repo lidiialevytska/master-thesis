@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  21 SEP 2026 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  21 SEP 2026 13:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,18 +435,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.19 \clearpage
-                [2] (./chapters/introduction.tex) (./chapters/literature review.tex
+                [2] (./chapters/introduction.tex
+
+Package natbib Warning: Citation `bamf2015migration' on page 1 undefined on input line 3.
+
+
+Package natbib Warning: Citation `bamf2022migration' on page 1 undefined on input line 3.
+
+
+Package natbib Warning: Citation `destatis2026foreign' on page 1 undefined on input line 3.
+
+
+Package natbib Warning: Citation `czymara2016who' on page 1 undefined on input line 7.
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.10 
       [1
 
 ]
 
-[2]
+[2]) (./chapters/literature review.tex
 
 [3]
 
@@ -454,11 +467,15 @@ l.37
 
 [5]
 
-[6]) (./chapters/experimentaldesign.tex
+[6]
 
 [7]
 
-[8]
+[8]) (./chapters/experimentaldesign.tex
+
+[9]
+
+[10]
 Overfull \hbox (2.75435pt too wide) in paragraph at lines 98--99
 |[][]
  []
@@ -470,10 +487,6 @@ Overfull \hbox (1.95927pt too wide) in paragraph at lines 103--104
 
 
 
-[9]
-
-[10]
-
 [11]
 
 [12]
@@ -482,11 +495,11 @@ Overfull \hbox (1.95927pt too wide) in paragraph at lines 103--104
 
 [14]
 
-[15]) (./chapters/empiricalstrategy.tex
+[15]
 
 [16]
 
-[17]
+[17]) (./chapters/empiricalstrategy.tex
 
 [18]
 
@@ -500,48 +513,54 @@ Overfull \hbox (1.95927pt too wide) in paragraph at lines 103--104
 
 [23]
 
-[24]) (./chapters/limitations.tex
+[24]
 
 [25]
 
 [26]
 
-[27]) (./chapters/conclusion.tex
+[27]) (./chapters/limitations.tex
 
-[28])
+[28]
 
-[29] (./thesis.bbl
+[29]) (./chapters/conclusion.tex
 
-[30
+[30])
+
+[31] (./thesis.bbl
+
+[32
 
 ]
-
-[31]
-
-[32]
 
 [33]
 
-[34])
+[34]
 
-[35] (./appendix/appendix.tex
+[35]
 
-[36
+[36])
+
+[37] (./appendix/appendix.tex
+
+[38
 
 ]
-Overfull \hbox (1.41443pt too wide) in paragraph at lines 134--134
+Overfull \hbox (1.41443pt too wide) in paragraph at lines 116--116
 []|\OT1/cmr/bx/n/10.95 Classification|  
  []
 
 
 
-[37]
+[39])
 
-[38])
+[40] (./declaration.tex)
 
-[39] (./declaration.tex)
+Package natbib Warning: There were undefined citations.
 
-[40
+
+
+[41
 
 ] (./thesis.aux)
  ***********
@@ -552,18 +571,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 0FAD6BC091B42E3A56E4DAF4B36148C2;9724.
  ) 
 Here is how much of TeX's memory you used:
- 13064 strings out of 473190
- 206936 string characters out of 5715800
- 609612 words of memory out of 5000000
+ 13065 strings out of 473190
+ 206943 string characters out of 5715800
+ 610613 words of memory out of 5000000
  35963 multiletter control sequences out of 15000+600000
  570011 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,18n,82p,1386b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,18n,82p,1238b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (43 pages, 307652 bytes).
+Output written on thesis.pdf (44 pages, 312100 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 166 named destinations out of 1000 (max. 500000)
+ 801 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 167 named destinations out of 1000 (max. 500000)
  329 words of extra memory for PDF output out of 10000 (max. 10000000)
 

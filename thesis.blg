@@ -3,6 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: apalike.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "bamf2015migration"
+Warning--I didn't find a database entry for "bamf2022migration"
+Warning--I didn't find a database entry for "destatis2026foreign"
+Warning--I didn't find a database entry for "czymara2016who"
 Warning--empty journal in echterhoff2023gefluchtete
 Warning--empty journal in enos2019causal
 Warning--there's a number but no volume in fasani2024refugees
@@ -11,7 +15,7 @@ Warning--empty journal in niehues2021spracherwerb
 Warning--can't use both volume and number fields in sauer2011application
 You've used 66 entries,
             1935 wiz_defined-function locations,
-            876 strings with 17798 characters,
+            880 strings with 17865 characters,
 and the built_in function-call counts, 26984 in all, are:
 = -- 2678
 > -- 1094
@@ -50,4 +54,4 @@ warning$ -- 6
 while$ -- 240
 width$ -- 0
 write$ -- 848
-(There were 6 warnings)
+(There were 10 warnings)

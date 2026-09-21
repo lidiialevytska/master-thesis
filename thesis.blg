@@ -1,57 +1,26 @@
-This is BibTeX, Version 0.99d (TeX Live 2025)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
-The style file: apalike.bst
-Database file #1: references.bib
-Warning--I didn't find a database entry for "bamf2015migration"
-Warning--I didn't find a database entry for "bamf2022migration"
-Warning--I didn't find a database entry for "destatis2026foreign"
-Warning--I didn't find a database entry for "czymara2016who"
-Warning--empty journal in echterhoff2023gefluchtete
-Warning--empty journal in enos2019causal
-Warning--there's a number but no volume in fasani2024refugees
-Warning--empty journal in guenther2024revisiting
-Warning--empty journal in niehues2021spracherwerb
-Warning--can't use both volume and number fields in sauer2011application
-You've used 66 entries,
-            1935 wiz_defined-function locations,
-            880 strings with 17865 characters,
-and the built_in function-call counts, 26984 in all, are:
-= -- 2678
-> -- 1094
-< -- 35
-+ -- 378
-- -- 362
-* -- 2447
-:= -- 4674
-add.period$ -- 194
-call.type$ -- 66
-change.case$ -- 512
-chr.to.int$ -- 66
-cite$ -- 72
-duplicate$ -- 947
-empty$ -- 1876
-format.name$ -- 472
-if$ -- 5193
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 65
-newline$ -- 329
-num.names$ -- 198
-pop$ -- 377
-preamble$ -- 1
-purify$ -- 511
-quote$ -- 0
-skip$ -- 728
-stack$ -- 0
-substring$ -- 2122
-swap$ -- 92
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 396
-warning$ -- 6
-while$ -- 240
-width$ -- 0
-write$ -- 848
-(There were 10 warnings)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'thesis.blg'
+[36] biber-darwin:340> INFO - === Mon Sep 21, 2026, 15:37:01
+[47] Biber.pm:420> INFO - Reading 'thesis.bcf'
+[137] Biber.pm:994> INFO - Found 70 citekeys in bib section 0
+[147] Biber.pm:4463> INFO - Processing section 0
+[154] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[155] bibtex.pm:1713> INFO - LaTeX decoding ...
+[193] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[428] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[428] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[428] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[428] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[428] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[502] Biber.pm:4283> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[502] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[539] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[574] bbl.pm:779> INFO - Output to thesis.bbl
+[574] Biber.pm:131> WARN - I didn't find a database entry for 'bamf2015migration' (section 0)
+[574] Biber.pm:131> WARN - I didn't find a database entry for 'bamf2022migration' (section 0)
+[575] Biber.pm:131> WARN - I didn't find a database entry for 'destatis2026foreign' (section 0)
+[575] Biber.pm:131> WARN - I didn't find a database entry for 'czymara2016who' (section 0)
+[575] Biber.pm:133> INFO - WARNINGS: 4

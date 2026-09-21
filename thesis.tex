@@ -1,27 +1,28 @@
-\documentclass[12pt,a4paper]{article}
+% !TEX program = pdflatex
+% !BIB program = biber
+
+\documentclass[11pt,a4paper,oneside]{article}
 
 \input{preamble}
 
 \begin{document}
 
 %--------------------------------------------------
-% Cover page
+% Front matter
 %--------------------------------------------------
+
+\pagenumbering{roman}
 
 \input{cover}
 
-%--------------------------------------------------
-% Table of contents
-%--------------------------------------------------
-
-\pagenumbering{gobble}
-\tableofcontents
 \clearpage
+\tableofcontents
 
 %--------------------------------------------------
 % Main text
 %--------------------------------------------------
 
+\clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
@@ -32,18 +33,34 @@
 \input{chapters/limitations}
 \input{chapters/conclusion}
 
-\clearpage
-\addcontentsline{toc}{section}{References}
-
-\bibliographystyle{apalike}
-\bibliography{references}
+%--------------------------------------------------
+% References
+%--------------------------------------------------
 
 \clearpage
-\appendix
+
+\begin{refcontext}[sorting=nyt]
+  \printbibliography[heading=bibintoc]
+\end{refcontext}
+
+%--------------------------------------------------
+% Appendix
+%--------------------------------------------------
+
+\begin{appendix}
+
 \input{appendix/appendix}
 
 \clearpage
-\newpage
+
+\end{appendix}
+
+%--------------------------------------------------
+% Declaration
+%--------------------------------------------------
+
+\clearpage
+
 \input{declaration}
 
 \end{document}

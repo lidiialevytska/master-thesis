@@ -1,0 +1,40 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Literature Review and Conceptual Framework}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Immigration Attitudes and Migrant Characteristics}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Beliefs and Expectations about Migrant Outcomes}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Differential Perceptions of Ukrainian and Syrian Migrants}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Belief Formation Through Contact, Experience, Information, and Memory}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experimental Design}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Target Population and Proposed Sample}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Factorial Vignette Design}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Outcome Variables}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Respondent Questionnaire}{14}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Personal Contact and Experience}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Media Exposure and Information}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}General Beliefs About Integration}{17}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Respondent Controls}{19}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}Data Quality and Processing}{19}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Empirical Strategy}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Experimental Analysis: Identification and Tests of H1–H3}{20}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Variables and Baseline Specification}{20}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Main Effects: H1a, H1b, H2, H3a, and H3b}{22}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Interaction Effects: H3c and Additional Analysis}{24}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Associational Analysis: Contact, Experience, Media, and Memory}{25}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Contact and Experience: H4a–H4b}{25}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Media Exposure and Tone: H5}{27}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Memorable Experiences and Information: H6a–H6b}{27}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}General Beliefs and Exploratory Analyses}{29}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Limitations and Extensions}{31}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{33}{section.6}%
+\contentsline {section}{References}{35}{section.6}%
+\contentsline {section}{\numberline {A}Survey Instrument}{A-1}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Vignette Experiment and Profile Construction}{A-1}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Outcome Questions and Response Scales}{A-1}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Personal Contact and Experience Questions}{A-2}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Media Exposure and Information Questions}{A-3}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}General-Belief Questions}{A-4}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Respondent Characteristics}{A-5}{subsection.A.6}%
+\contentsline {section}{\numberline {B}Data Processing}{A-8}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Missing, Not-Applicable, and Structurally Unavailable Responses}{A-8}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Analysis-Sample Availability}{A-9}{subsection.B.2}%

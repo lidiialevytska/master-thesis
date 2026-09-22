@@ -4982,7 +4982,7 @@
     <bcf:citekey order="2" intorder="1">bamf2022migration</bcf:citekey>
     <bcf:citekey order="3" intorder="1">destatis2026foreign</bcf:citekey>
     <bcf:citekey order="4" intorder="1">bansak2016economic</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">czymara2016who</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">czymara2016deutschland</bcf:citekey>
     <bcf:citekey order="5" intorder="1">moise2024european</bcf:citekey>
     <bcf:citekey order="6" intorder="1">drewski2025states</bcf:citekey>
     <bcf:citekey order="7" intorder="1">scheve2001labor</bcf:citekey>
@@ -5072,4 +5072,101 @@
     <bcf:citekey order="63" intorder="2">jacobs2016news</bcf:citekey>
     <bcf:citekey order="64" intorder="1">lueders2019refugees</bcf:citekey>
     <bcf:citekey order="65" intorder="1">bordalo2023memory</bcf:citekey>
-    <bcf:
+    <bcf:citekey order="65" intorder="2">enke2024associative</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">graeber2024stories</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">graeber2024stories</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">hayo2023between</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">hainmueller2015hidden</bcf:citekey>
+    <bcf:citekey order="69" intorder="2">bansak2016economic</bcf:citekey>
+    <bcf:citekey order="69" intorder="3">czymara2016deutschland</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">hainmueller2010attitudes</bcf:citekey>
+    <bcf:citekey order="70" intorder="2">hainmueller2015hidden</bcf:citekey>
+    <bcf:citekey order="70" intorder="3">czymara2016deutschland</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">czymara2016deutschland</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">czymara2017refugees</bcf:citekey>
+    <bcf:citekey order="72" intorder="2">gereke2020gendered</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">czymara2016deutschland</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">sauer2011application</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">brell2020labor</bcf:citekey>
+    <bcf:citekey order="75" intorder="2">fasani2024refugees</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">schwerter2020determinants</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">graeber2024stories</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">brucker2020funf</bcf:citekey>
+    <bcf:citekey order="78" intorder="2">fasani2022struggle</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">niehues2021spracherwerb</bcf:citekey>
+    <bcf:citekey order="79" intorder="2">hannafi2023social</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">battisti2022dynamic</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">danzer2013ethnic</bcf:citekey>
+    <bcf:citekey order="81" intorder="2">danzer2016ethnic</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">berinsky2014separating</bcf:citekey>
+    <bcf:citekey order="82" intorder="2">curran2016methods</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">lueders2019refugees</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">moise2024european</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">moise2024european</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="ynt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+      <bcf:sortitem literal="1" order="3">9999</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

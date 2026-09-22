@@ -627,6 +627,86 @@
       \field{type}{techreport}
       \field{year}{2020}
     \endentry
+    \entry{bamf2015migration}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a474c77d73fa88c2a7bbeb50c8abcad}{%
+           family={{Bundesamt für Migration und Flüchtlinge}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bundesamt für Migration und Flüchtlinge}%
+      }
+      \list{location}{1}{%
+        {Nuremberg}%
+      }
+      \strng{namehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{bibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorbibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authornamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Migration Report 2015}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2015.html
+      \endverb
+      \verb{url}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2015.html
+      \endverb
+    \endentry
+    \entry{bamf2022migration}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a474c77d73fa88c2a7bbeb50c8abcad}{%
+           family={{Bundesamt für Migration und Flüchtlinge}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bundesamt für Migration und Flüchtlinge}%
+      }
+      \list{location}{1}{%
+        {Nuremberg}%
+      }
+      \strng{namehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{bibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorbibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authornamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Migration Report of the Federal Government 2022}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2022-kurzfassung.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2022-kurzfassung.pdf
+      \endverb
+    \endentry
     \entry{burns2000economic}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=040b2b41bd43939f2a546549d2e54152}{%
@@ -2785,6 +2865,42 @@
       \field{pages}{477\bibrangedash 504}
       \range{pages}{28}
     \endentry
+    \entry{destatis2026foreign}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhashraw}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhashraw}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{4}
+      \field{title}{Foreign Population by Age Groups and Selected Citizenships}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/Tables/foreigner-age-groups.html
+      \endverb
+      \verb{url}
+      \verb https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/Tables/foreigner-age-groups.html
+      \endverb
+    \endentry
     \entry{stefaniak2025double}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=5660e496fd94f82b54378e0f349d94d6}{%
@@ -3758,6 +3874,46 @@
       \field{year}{2016}
       \field{pages}{217\bibrangedash 222}
       \range{pages}{6}
+    \endentry
+    \entry{bamf2015migration}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a474c77d73fa88c2a7bbeb50c8abcad}{%
+           family={{Bundesamt für Migration und Flüchtlinge}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bundesamt für Migration und Flüchtlinge}%
+      }
+      \list{location}{1}{%
+        {Nuremberg}%
+      }
+      \strng{namehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{bibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorbibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authornamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Migration Report 2015}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2015.html
+      \endverb
+      \verb{url}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2015.html
+      \endverb
     \endentry
     \entry{curran2016methods}{article}{}{}
       \name{author}{1}{}{%
@@ -5146,6 +5302,46 @@
       \field{pages}{749\bibrangedash 777}
       \range{pages}{29}
     \endentry
+    \entry{bamf2022migration}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a474c77d73fa88c2a7bbeb50c8abcad}{%
+           family={{Bundesamt für Migration und Flüchtlinge}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bundesamt für Migration und Flüchtlinge}%
+      }
+      \list{location}{1}{%
+        {Nuremberg}%
+      }
+      \strng{namehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{fullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{bibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorbibnamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authornamehash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhash}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \strng{authorfullhashraw}{7a474c77d73fa88c2a7bbeb50c8abcad}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Migration Report of the Federal Government 2022}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2022-kurzfassung.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bamf.de/SharedDocs/Anlagen/EN/Forschung/Migrationsberichte/migrationsbericht-2022-kurzfassung.pdf
+      \endverb
+    \endentry
     \entry{enke2024associative}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=35422f407ff1504ff024c4febfd383b0}{%
@@ -5785,11 +5981,43 @@
       \field{pages}{edag008}
       \range{pages}{-1}
     \endentry
+    \entry{destatis2026foreign}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhashraw}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhashraw}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{4}
+      \field{title}{Foreign Population by Age Groups and Selected Citizenships}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/Tables/foreigner-age-groups.html
+      \endverb
+      \verb{url}
+      \verb https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/Tables/foreigner-age-groups.html
+      \endverb
+    \endentry
   \enddatalist
-  \missing{bamf2015migration}
-  \missing{bamf2022migration}
-  \missing{czymara2016who}
-  \missing{destatis2026foreign}
 \endrefsection
 \endinput
 

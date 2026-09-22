@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  22 SEP 2026 03:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.28)  22 SEP 2026 04:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1739,9 +1739,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 
 [39] (./appendix/appendix.tex
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 82.
+(Font)              in TS1 encoding on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.96494pt on input line 82.
+(Font)              scaled to size 6.96494pt on input line 81.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 82.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 82.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 82.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 83.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
@@ -1754,18 +1760,18 @@ LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 84.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 84.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 85.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 85.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 85.
 
 
 [1
 
 ]
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 85.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 85.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 85.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 86.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 86.
@@ -1775,21 +1781,15 @@ LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 87.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 87.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 87.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 88.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 88.
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 207.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 206.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.94995pt on input line 207.
+(Font)              scaled to size 9.94995pt on input line 206.
 
 
 [3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
@@ -1797,6 +1797,12 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 [4]
 
 [5]
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 469.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 470.
+LaTeX Font Info:    Faking \texteuro for font family ntxtlf
+(Font)              in TS1 encoding on input line 470.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 470.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
@@ -1839,12 +1845,6 @@ LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 477.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 477.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 477.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 478.
-LaTeX Font Info:    Faking \texteuro for font family ntxtlf
-(Font)              in TS1 encoding on input line 478.
 
 
 [6]
@@ -1870,15 +1870,15 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34069 strings out of 473190
- 606489 string characters out of 5715800
- 1909063 words of memory out of 5000000
- 56616 multiletter control sequences out of 15000+600000
+ 34068 strings out of 473190
+ 606474 string characters out of 5715800
+ 1908987 words of memory out of 5000000
+ 56615 multiletter control sequences out of 15000+600000
  716619 words of font info for 161 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  80i,13n,131p,1268b,9343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-BookItalic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (52 pages, 379483 bytes).
+Output written on thesis.pdf (52 pages, 379951 bytes).
 PDF statistics:
  769 PDF objects out of 1000 (max. 8388607)
  683 compressed objects within 7 object streams

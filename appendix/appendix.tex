@@ -1,13 +1,12 @@
 \section{Survey Instrument}
 
 \subsection{Vignette Experiment and Profile Construction}
-\label{app:vignettes}
 
 \noindent\textbf{Instructions to respondents.} In the following part of the survey, you will see descriptions of several people who
 have come to Germany. The people described differ in several characteristics. Please
 read each description carefully and answer the questions that follow based on what you
 think is most likely for the person described. There are no right or wrong answers; we
-are interested in your beliefs about each person.\bigskip
+are interested in your beliefs about each person.\medskip
 
 \noindent\textbf{Illustrative profiles.} The following profiles illustrate how the randomized attribute combinations would
 appear to respondents.
@@ -582,6 +581,25 @@ an indicator \(East_i\) can additionally be constructed to distinguish
 respondents residing in eastern and western Germany. Political orientation,
 \(Right_i\), is recorded on the original 0--10 scale, with higher values
 indicating a more right-wing self-placement.
+\medskip
+
+\noindent\textbf{Attention Check.} The proposed survey would include one instructed-response attention check,
+placed immediately after the vignette experiment and before the respondent
+questionnaire. A possible item would be:
+
+\medskip
+\noindent
+To show that you are paying attention, please select ``Somewhat agree'' below.
+
+\smallskip
+\noindent
+\textit{Response options:} Strongly disagree; Disagree; Somewhat disagree;
+Neither agree nor disagree; Somewhat agree; Agree; Strongly agree.
+
+\medskip
+\noindent
+Failure to select the instructed response would be recorded as a failed
+attention check.
 
 \section{Data Processing}
 
@@ -664,7 +682,8 @@ The respondent remains in analyses that do not require the respective variable. 
 
 \begin{minipage}{\textwidth}
 \footnotesize
-\textit{Notes:} Missing values may arise from explicit nonresponse
+\textit{Notes:} All displayed survey questions require a response before 
+respondents can proceed. Missing values may arise from explicit nonresponse
 or ``Don't know'' responses, questions that are not applicable, or questions
 that are not displayed because of conditional survey logic. ``Other''
 responses are retained as valid responses and are not automatically treated

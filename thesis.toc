@@ -25,7 +25,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Media Exposure and Tone: H5}{27}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Memorable Experiences and Information: H6a–H6b}{27}{subsubsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.3}General Beliefs and Exploratory Analyses}{29}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Limitations and Extensions}{31}{section.5}%
+\contentsline {section}{\numberline {5}Limitations and Extensions}{30}{section.5}%
 \contentsline {section}{\numberline {6}Conclusion}{33}{section.6}%
 \contentsline {section}{References}{35}{section.6}%
 \contentsline {section}{\numberline {A}Survey Instrument}{A-1}{appendix.A}%
